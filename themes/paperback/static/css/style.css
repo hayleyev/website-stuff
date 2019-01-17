@@ -1,23 +1,142 @@
 :root {
-  --backColor: #fff;
-  --textColor: #000;
-  --linkColor: #000;
-  --cardBackColor: #4e4e4e;
-  --grey: #d4d4d4;
-  --mainFont: "CalFrakturModern";
+  --backColor: #272324;
+  --textColor: #fff;
+  --accentColor: #d62e0d;
+}
+
+/* -------- fonts ----------*/
+
+@font-face {
+    font-family: 'Bernard MT Condensed';
+    src: url('BernardMT-Condensed.woff2') format('woff2'),
+        url('BernardMT-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Aktiv Grotesk XBold';
+    src: url('AktivGroteskTrial-XBold.woff2') format('woff2'),
+        url('AktivGroteskTrial-XBold.woff') format('woff'),
+        url('AktivGroteskTrial-XBold.svg#AktivGroteskTrial-XBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "CalFrakturModern";
-  src: url("webfonts/36901D_0_0.eot");
-  src: url("webfonts/36901D_0_0.eot?#iefix") format("embedded-opentype"),
-    url("webfonts/36901D_0_0.woff2") format("woff2"),
-    url("webfonts/36901D_0_0.woff") format("woff"),
-    url("webfonts/36901D_0_0.ttf") format("truetype");
+    font-family: 'Aktiv Grotesk';
+    src: url('AktivGroteskTrial-Medium.woff2') format('woff2'),
+        url('AktivGroteskTrial-Medium.woff') format('woff'),
+        url('AktivGroteskTrial-Medium.svg#AktivGroteskTrial-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'Aktiv Grotesk Hair';
+    src: url('AktivGroteskTrial-HairItalic.woff2') format('woff2'),
+        url('AktivGroteskTrial-HairItalic.woff') format('woff'),
+        url('AktivGroteskTrial-HairItalic.svg#AktivGroteskTrial-HairItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    src: url('AktivGroteskTrial-ThinItalic.woff2') format('woff2'),
+        url('AktivGroteskTrial-ThinItalic.woff') format('woff'),
+        url('AktivGroteskTrial-ThinItalic.svg#AktivGroteskTrial-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    src: url('AktivGroteskTrial-BoldItalic.woff2') format('woff2'),
+        url('AktivGroteskTrial-BoldItalic.woff') format('woff'),
+        url('AktivGroteskTrial-BoldItalic.svg#AktivGroteskTrial-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    src: url('AktivGroteskTrial-Black.woff2') format('woff2'),
+        url('AktivGroteskTrial-Black.woff') format('woff'),
+        url('AktivGroteskTrial-Black.svg#AktivGroteskTrial-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    src: url('AktivGroteskTrial-BlackItalic.woff2') format('woff2'),
+        url('AktivGroteskTrial-BlackItalic.woff') format('woff'),
+        url('AktivGroteskTrial-BlackItalic.svg#AktivGroteskTrial-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    src: url('AktivGroteskTrial-Regular.woff2') format('woff2'),
+        url('AktivGroteskTrial-Regular.woff') format('woff'),
+        url('AktivGroteskTrial-Regular.svg#AktivGroteskTrial-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    src: url('AktivGroteskTrial-MediumItalic.woff2') format('woff2'),
+        url('AktivGroteskTrial-MediumItalic.woff') format('woff'),
+        url('AktivGroteskTrial-MediumItalic.svg#AktivGroteskTrial-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    src: url('AktivGroteskTrial-Italic.woff2') format('woff2'),
+        url('AktivGroteskTrial-Italic.woff') format('woff'),
+        url('AktivGroteskTrial-Italic.svg#AktivGroteskTrial-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    src: url('AktivGroteskTrial-XBoldItalic.woff2') format('woff2'),
+        url('AktivGroteskTrial-XBoldItalic.woff') format('woff'),
+        url('AktivGroteskTrial-XBoldItalic.svg#AktivGroteskTrial-XBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    src: url('AktivGroteskTrial-Hair.woff2') format('woff2'),
+        url('AktivGroteskTrial-Hair.woff') format('woff'),
+        url('AktivGroteskTrial-Hair.svg#AktivGroteskTrial-Hair') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    src: url('AktivGroteskTrial-Bold.woff2') format('woff2'),
+        url('AktivGroteskTrial-Bold.woff') format('woff'),
+        url('AktivGroteskTrial-Bold.svg#AktivGroteskTrial-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* -------- Basics ----------*/
+
 html {
-  font-family: "lucida grande";
+  font-family: 'Aktiv Grotesk', sans-serif;
   font-size: 18px;
   line-height: 1.5em;
   background: var(--backColor);
@@ -46,7 +165,7 @@ h2 {
 }
 
 h2.blackletter {
-  font-size:2.3em;
+  font-size: 2.3em;
 }
 
 h3 {
@@ -59,7 +178,7 @@ h4 {
 }
 
 h4.blackletter {
-  font-size:1.5em;
+  font-size: 1.5em;
 }
 
 h5 {
@@ -71,18 +190,15 @@ p {
 a {
   color: var(--linkColor);
   cursor: pointer;
+  transition:0.3s;
 }
 
 a:hover {
+  color:var(--accentColor);
 }
 
 .display-none {
-  display:none;
-}
-
-
-.blackletter {
-  font-family: var(--mainFont);
+  display: none;
 }
 
 img {
@@ -90,317 +206,95 @@ img {
   height: auto;
 }
 
-.old-project {
-  margin-right: 16px;
-  margin-bottom: 32px;
-  max-width: calc(25% - 16px);
-  min-width: calc(25% - 16px);
-}
+/* -------- NAV ----------*/
 
-.old-project .desc {
-  font-size:12px;
-  line-height:14px;
-  padding-top:8px;
-  opacity:0.5;
-}
-
-.old-project .images {
-  min-height: 200px;
-  width:100%;
-  margin-bottom: 16px;
-  border-radius: 4px;
-  position:relative;
-  overflow:hidden;
-}
-
-.old-project.video:hover .img {
-  opacity:0;
-}
-
-.old-project .img {
-  min-height: 200px;
-  width:100%;
-  background-size: cover;
-  background-position: center;
-  position:absolute;
-  top:0;
-  left:0;
-  z-index:100;
-  opacity:1;
-  transition:0.3s;
-}
-.old-project .gif {
-  min-height: 200px;
-  width:100%;
-  background-size: cover;
-  background-position: center;
-  position:absolute;
-  top:0;
-  left:0;
-}
-
-.old-project .title a {
-  float: right;
-  opacity: 0.5;
-  font-size: 14px;
-  vertical-align: top;
-}
-
-.old-project .title a:hover {
-  opacity: 1;
-}
-
-.old-project.website .browser-bar {
-  display: block;
-  background: var(--grey);
-}
-
-.old-project.website .img {
-  border: 2px solid var(--grey);
-  background-position: center 24px;
-  box-sizing:border-box;
-  border-radius:4px;
-}
-
-.browser-bar svg {
-  font-size: 45px;
-  position: absolute;
-  top: -10px;
-  left: 4px;
-  color: var(--backColor);
-}
-
-.browser-bar {
-  -webkit-border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
-  background: #d4d4d4;
-  position: relative;
-  width: 100%;
-  height: 24px;
-  display: none;
-}
-
-.new-project {
-  margin-right: 16px;
-  margin-bottom: 16px;
-  max-width: calc(50% - 16px);
-  min-width: calc(50% - 16px);
-  background: var(--cardBackColor);
-  color: var(--textColor);
-  font-size: 24px;
-  box-sizing: border-box;
-  border-radius: 4px;
-  box-shadow: 0 10px 42px #41466333;
-  overflow: hidden;
-  min-height: 350px;
-  text-decoration: none;
-}
-
-.new-project:hover h3 {
-  text-decoration: underline;
-}
-
-.new-project .flex-row {
-  height: 100%;
-}
-
-.new-project .desc {
-  box-sizing: border-box;
-  max-width: 50%;
-}
-
-.new-project .desc p {
-  font-size: 16px;
-  line-height: 1.2em;
-  opacity: 0.5;
-}
-
-.new-project .picture {
-  line-height: 0;
-  background-size: cover;
-  background-position: center;
-}
-
-.oilandsugar-symbol {
-  opacity:0.5;
-  font-size:14px;
-  line-height:1.5em;
-}
-
-.oilandsugar-symbol .symbol {
-  max-width:100px;
-}
-
-.oilandsugar-symbol .symbol svg {
-  max-width:100%;
-}
-
-.oilandsugar-symbol .symbol svg path,
-.oilandsugar-symbol .symbol svg polygon {
-  fill: var(--textColor);
-}
-
-/* -------- SHOP ---------*/
-
-.product {
-  margin-right: 16px;
-  margin-bottom: 16px;
-  max-width: calc(25% - 16px);
-  min-width: calc(25% - 16px);
-  background: var(--cardBackColor);
-  color: var(--textColor);
-  font-size: 24px;
-  box-sizing: border-box;
-  border-radius: 4px;
-  box-shadow: 0 10px 42px #41466333;
-  overflow: hidden;
-  min-height: 350px;
-  text-decoration: none;
-}
-
-.product h4 {
-  margin:0;
-}
-
-.product .price {
-  font-size: 18px;
-  line-height: 1.8em;
-}
-
-.product .desc p.spec {
-  font-size:12px;
-  margin-bottom:0;
-}
-
-.product .picture {
-  line-height: 0;
-  background-size: cover;
-  background-position: center;
-  min-height:300px;
-}
-
-.product .desc p {
-  font-size: 16px;
-  line-height: 1.2em;
-  opacity: 0.5;
-}
-
-.profile-pic {
-  max-width: 100px;
-  min-width: 100px;
-  margin-right: 24px;
-}
-
-.profile-pic .photo {
-  border-radius: 50%;
-  overflow: hidden;
-  width: 100px;
-  height: 100px;
-}
-
-.bio {
-  margin-top: 0;
-}
-
-.bio h4 {
-  margin: 0;
-}
-
-.social svg {
-  font-size: 24px;
-  padding: 0 4px;
-  color: var(--linkColor);
-  opacity: 0.4;
-}
-
-.social a {
+nav a {
   text-decoration:none;
 }
 
-.social svg:hover {
-  opacity: 1;
-}
-
-#theme-toggle svg {
-  margin-right: 8px;
-}
-
-.filters {
-  text-align: right;
-}
-
-.tag {
-  padding-right: 8px;
-  opacity: 0.5;
-  transition:0.3s;
-}
-
-.tag:hover {
-  opacity:1;
-}
-
-.tag svg {
-  margin-right: 8px;
-  font-size: 12px;
-  position: relative;
-  top: -2px;
-}
-
-.old-row {
-  margin-right: -16px;
-}
-
-.webring {
-  display: inline-block;
-}
-
-.webring svg {
-  stroke: var(--textColor);
-  width: 40px;
-  height: auto;
+.menu a:after {
+  content:"•";
+  transition:0s;
+  color:#fff;
 }
 
 
-/* -------- SINGLE PROJECTS ---------*/
-
-.single h1 {
-  margin-top: 52px;
-  margin-bottom: 36px;
+.menu a:last-child:after {
+  content:"";
 }
 
-.back-home a {
-  opacity:0.5;
-  transition:0.3s;
-  text-decoration: none;
+.menu a:hover:after {
+  color:#fff;
 }
 
-.back-home a:hover {
-  opacity:1;
+nav a.title {
+  font-family:'Bernard MT Condensed';
+  font-size:36px;
 }
 
-.back-home a svg {
-  margin-right:16px;
-  font-size:16px;
+nav .menu {
+  text-align:right;
 }
 
-.single p {
-  font-size:24px;
+/* -------- HOME ----------*/
+
+.top-quote,
+.bottom-quote {
+  max-width:310px;
+  text-align:center;
+  margin:0 auto;
+  font-style: italic;
 }
 
-.single small {
-  opacity:0.5;
-  font-size:14px;
-  line-height:1.2em;
+.top-quote a,
+.bottom-quote a {
+  text-decoration:none;
 }
 
-/* -------- COLORS ---------*/
+.top-quote {
+  margin-bottom:60px;
+}
 
-.grey {
-  opacity: 0.5;
+.bottom-quote {
+  margin-top:60px;
+}
+
+.top-quote a:hover,
+.bottom-quote a:hover {
+  color:var(--accentColor);
+}
+
+/* -------- About ---------*/
+
+.about h2 {
+  font-style:italic;
+  font-weight:bold;
+}
+
+/* -------- PROJECTS ---------*/
+
+.projects {
+
+}
+
+.project {
+
+}
+
+.project.editing {
+
+}
+
+.project.writting {
+
+}
+
+.project.inerview {
+
+}
+
+.project-insert {
+
 }
 
 /* -- containers -- */
@@ -408,6 +302,12 @@ img {
 .wrap {
   padding: 0 10em;
   max-width: 1800px;
+  margin: 0 auto;
+}
+
+.wrap-smaller {
+  padding: 0 10em;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -678,24 +578,24 @@ img {
     margin-bottom: 16px;
   }
   .oilandsugar-symbol {
-    flex-direction:column;
+    flex-direction: column;
   }
   .oilandsugar-symbol .symbol {
-    max-width:100%;
-    text-align:center;
-    padding-bottom:20px;
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
   }
   .oilandsugar-symbol .symbol svg {
-    width:80px;
+    width: 80px;
   }
   .shop-row {
     flex-direction: column;
   }
   .product {
-    max-width:100%;
-    margin-right:0;
+    max-width: 100%;
+    margin-right: 0;
   }
   .product-desc p {
-    margin-top:0;
+    margin-top: 0;
   }
 }

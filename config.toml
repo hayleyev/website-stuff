@@ -1,3 +1,22 @@
 baseURL = "http://hayleyevans.net/"
 languageCode = "en-us"
 title = "Hayley Evans"
+theme = "paperback"
+enableEmoji = true
+
+[[menu.main]]
+name = "Writing"
+url = "/#writing"
+weight = 1
+[[menu.main]]
+name = "Editing"
+url = "/#editing"
+weight = 2
+[[menu.main]]
+name = "Interviews"
+url = "/#interviews"
+weight = 3
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
