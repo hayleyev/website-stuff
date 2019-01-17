@@ -143,6 +143,10 @@ html {
 
 body {
   margin: 0;
+  //background: url('/uploads/corner-right-top.png');
+  background-position:top right;
+  background-repeat:no-repeat;
+  background-size: 400px;
 }
 
 h1 {
@@ -272,13 +276,21 @@ nav .menu {
 /* -------- PROJECTS ---------*/
 
 .projects {
+  padding-bottom:100px;
+  margin-top:24px;
+  margin-bottom:60px;
+  flex-wrap:wrap;
+}
 
+.project:nth-child(even) {
+  top:100px;
 }
 
 .project {
   position:relative;
   min-height:300px;
   max-width:33.3333%;
+  min-width:33.3333%;
   display:block;
   text-decoration:none;
 }
