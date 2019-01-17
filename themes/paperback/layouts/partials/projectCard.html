@@ -1,7 +1,7 @@
-<a href="{{ .Params.projectUrl }}" class="flex-1 project">
+<a href="{{ .Params.projectUrl }}" class="flex-1 project medium-padding {{ .Params.type }}">
   <div class="picture" style="background-image:url({{ .Params.Picture }});">
   </div>
-  <div class="desc medium-padding flex-1">
+  <div class="desc medium-padding-left flex-1">
     <h2 class="quote">{{ .Params.Quote }}</h2>
     <p class="title">
       {{ .Title }}

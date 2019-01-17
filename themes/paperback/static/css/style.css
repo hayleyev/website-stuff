@@ -215,14 +215,16 @@ nav a {
 }
 
 .menu a:after {
-  content:"•";
+  content:" • ";
   transition:0s;
   color:#fff;
+  padding: 0 8px;
 }
 
 
 .menu a:last-child:after {
   content:"";
+  display:none;
 }
 
 .menu a:hover:after {
@@ -277,8 +279,7 @@ nav .menu {
 
 .projects {
   padding-bottom:100px;
-  margin-top:24px;
-  margin-bottom:60px;
+  margin:24px -30px 60px -30px;
   flex-wrap:wrap;
 }
 
@@ -293,44 +294,56 @@ nav .menu {
   min-width:33.3333%;
   display:block;
   text-decoration:none;
+  box-sizing:border-box;
 }
 
 .project .picture {
-  height: 200px;
-  width:300px;
+  height: 250px;
+  width: calc(100% - 60px);
   background-size:cover;
   position:absolute;
   z-index:0;
   filter: grayscale(100%);
   opacity:0.7;
+  background-position: center center;
 }
 
 .project .desc {
   position:relative;
   z-index:10;
+  margin-top:177px;
 }
 
 .project h2  {
-  font-family: 'Bernard MT Condensed';
   font-size: 46px;
-  margin-top:100px;
   line-height:46px;
 }
 
 .project .title {
   color: var(--accentColor);
+  width:50%;
+  line-height:20px;
 }
 
-.project.editing {
-
+.project.editing h2 {
+  font-weight:bold;
 }
 
-.project.writting {
-
+.project.writing h2 {
+  font-family: 'Bernard MT Condensed';
+  font-size: 46px;
 }
 
-.project.interview {
+.project.interview h2 {
+  font-weight:bold;
+  font-style: italic;
+  text-transform:uppercase;
+  font-size: 36px;
+  line-height:36px;
+}
 
+.project.interview .desc {
+  margin-top:200px;
 }
 
 .project-insert {
@@ -522,34 +535,6 @@ nav .menu {
     width: 100%;
     overflow-x: hidden;
   }
-  h3 {
-    font-size: 20px;
-  }
-  .current-row {
-    width: 600px;
-    padding-bottom: 30px;
-  }
-  .new-project .flex-row {
-    display: block;
-  }
-  .new-project {
-    max-width: calc(50% - 40px);
-    min-width: calc(50% - 40px);
-  }
-  .new-project .picture {
-    min-height: 200px;
-    background-position: center;
-  }
-  .new-project:first-child {
-    margin-left: 24px;
-  }
-  .new-project:last-child {
-    margin-right: 24px;
-  }
-  .new-project .desc {
-    max-width: 100%;
-    padding: 24px;
-  }
   .mobile {
     display: block;
   }
@@ -563,79 +548,29 @@ nav .menu {
   .big-padding-top {
     padding-top: 30px;
   }
-  h1 {
-    font-size: 3em;
+  nav a.title {
+    line-height:34px;
   }
-  h2 {
-    font-size: 1.2em;
+  .top-quote, .bottom-quote {
+    font-size: 14px;
+    max-width: 250px;
+    line-height:16px;
   }
-  .old-title {
-    padding-top: 60px;
+  .projects {
+    flex-direction:column;
   }
-  .top-page-row {
-    display: block;
-  }
-  .profile-pic .photo {
-    width: 80px;
-    height: 80px;
-  }
-  .profile-pic {
-    max-width: 80px;
-    min-width: 80px;
-    margin-bottom: 16px;
-  }
-  .old-row {
-    margin-right: 0;
-  }
-  .old-project {
+  .project {
     max-width: 100%;
     min-width: 100%;
-    margin-right: 0;
   }
-  .current-row-scroll {
-    overflow-x: scroll;
-    margin-left: -24px;
-    margin-right: -24px;
-    margin-bottom: 30px;
+  .project:nth-child(even) {
+    top: 0;
   }
-  ::-webkit-scrollbar-thumb {
-    background: #fff;
+  .project.writing h2 {
+    font-size:40px;
+    line-height:40px;
   }
-  .old-title {
-    display: block;
-  }
-  .filters {
-    text-align: left;
-    margin-bottom: 16px;
-  }
-  .tag {
-    display: block;
-  }
-  .footer .flex-row {
-    display: block;
-  }
-  .footer .flex-row .flex-1 {
-    margin-bottom: 16px;
-  }
-  .oilandsugar-symbol {
-    flex-direction: column;
-  }
-  .oilandsugar-symbol .symbol {
-    max-width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-  }
-  .oilandsugar-symbol .symbol svg {
-    width: 80px;
-  }
-  .shop-row {
-    flex-direction: column;
-  }
-  .product {
-    max-width: 100%;
-    margin-right: 0;
-  }
-  .product-desc p {
-    margin-top: 0;
+  .project .title {
+    width:70%;
   }
 }
