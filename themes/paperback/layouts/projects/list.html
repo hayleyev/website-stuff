@@ -7,7 +7,11 @@
      attention to detail and ruthless will ...”
     </a>
   </div>
-  
+  <div class="projects">
+    {{ range .Pages }}
+      {{ partial "projectCard.html" . }}
+    {{ end }}
+  </div>
   <div class="bottom-quote">
     <a href="/about">
       “She reads the darkness ...”
