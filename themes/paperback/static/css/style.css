@@ -203,6 +203,10 @@ a:hover {
   display: none;
 }
 
+.text-right {
+  text-align:right;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -390,6 +394,16 @@ nav .menu {
   line-height: 18px;
   opacity: 0.5;
   margin: 8px 0 36px 0;
+}
+
+.about h2 span {
+  text-align: right;
+  display:block;
+}
+
+.about hr {
+  margin:36px 0;
+  opacity:0;
 }
 
 /* -------- FLEX ---------*/

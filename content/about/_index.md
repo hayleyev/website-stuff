@@ -9,6 +9,8 @@ description: A sentient life form ... possibly human.
 
 ## <span class="text-right">…possibly human.</span>
 
+---
+
 > “Hayley has worked for me on a couple of large-scale international editorial projects and I couldn’t be happier with her work. She has a fierce, almost obsessive, attention to detail and ruthless will to do each job to perfection. The results are always outstanding. Hayley is simply the best editor I’ve ever worked with. I know her work greatly improved my own—and that of many more professional international writers as well!”
 
 ###### — Dr. Stephen Ross, Associate Professor and General Editor of the Routledge Encyclopedia of Modernism
