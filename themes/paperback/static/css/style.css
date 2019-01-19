@@ -341,7 +341,7 @@ nav .menu {
 
 .project.editing .picture {
   height: 450px;
-  width: calc(60% - 60px);
+  width: calc(80% - 60px);
 }
 
 .project.editing .author {

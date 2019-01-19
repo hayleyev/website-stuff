@@ -2,14 +2,21 @@
   <div class="picture" style="background-image:url({{ .Params.Picture }});">
   </div>
   <div class="desc medium-padding-left flex-1">
+    {{ if eq .Params.type "editing" }}
+      <p class="title">
+        {{ .Title }}
+      </p>
+      {{ with .Params.Author }}
+      <p class="author">
+        {{ . }}
+      </p>
+      {{ end }}
+    {{ end }}
     <h2 class="quote">{{ .Params.Quote }}</h2>
-    <p class="title">
-      {{ .Title }}
-    </p>
-    {{ with .Params.Author }}
-    <p class="author">
-      {{ . }}
-    </p>
+    {{ if not eq .Params.type "editing" }}
+      <p class="title">
+        {{ .Title }}
+      </p>
     {{ end }}
   </div>
 </a>
