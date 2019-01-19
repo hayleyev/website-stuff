@@ -385,6 +385,12 @@ nav .menu {
   font-style: italic;
 }
 
+.about h6 {
+  font-size: 14px;
+  line-height: 18px;
+  opacity: 0.5;
+  margin: 8px 0 36px 0;
+}
 
 /* -------- FLEX ---------*/
 
