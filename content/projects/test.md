@@ -6,6 +6,5 @@ projecturl = "test"
 quote = "\"between the realms of rapture and torture.\""
 title = "Interview with The Ljilja"
 type = "interviews"
-undefined = ""
 
 +++
