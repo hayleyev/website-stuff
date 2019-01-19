@@ -1,10 +1,9 @@
 ---
-
-title: "Decline"
-quote: "terror and slaughter, stillness and peace"
+title: Decline
+quote: terror and slaughter, stillness and peace
 author: Jared Kane
-picture: "/uploads/1132884.jpg"
-projectUrl: "http://test.com"
-type: "editing"
+picture: "/uploads/Screen Shot 2019-01-19 at 11.30.24 AM.png"
+projectUrl: http://test.com
+type: editing
 
 ---
