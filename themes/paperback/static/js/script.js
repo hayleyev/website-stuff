@@ -1,29 +1,31 @@
 jQuery(function($) {
   $(document).ready(function() {
 
-    // ISOTOPE GRID FOR OLD PROJECTS
+    // ISOTOPE GRID FOR PROJECTS
 
-    var old_projects = $(".old-row");
+    var projects = $(".projects");
 
-    old_projects.isotope({
+    projects.isotope({
       // options
-      itemSelector: ".old-project",
+      itemSelector: ".project",
       layoutMode: "fitRows",
       transitionDuration: "0"
     });
 
-    $(".tag").click(function(e) {
-      e.preventDefault();
-      var filter_value = $(this).data("filter");
-      console.log(filter_value);
-      old_projects.isotope({ filter: filter_value });
-      $(".tag")
-        .find("[data-fa-i2svg]")
-        .removeClass("fas")
-        .addClass("far");
-      $(this)
-        .find("[data-fa-i2svg]")
-        .addClass("fas");
+    // filter on load
+    let url = window.location;
+    let filter_value = "." + url.hash.substring(1);
+    projects.isotope({ filter: filter_value });
+
+    // filter on change
+    $(window).bind('hashchange', function() {
+      let url = window.location;
+      let filter_value = url.hash.substring(1);
+      projects.isotope({ filter: "." + filter_value });
+      $(".menu-item")
+        .removeClass("active")
+      $('a[href="#' + filter_value + '"]')
+        .addClass("active");
     });
   });
 });

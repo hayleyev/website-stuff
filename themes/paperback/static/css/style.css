@@ -283,8 +283,8 @@ nav .menu {
   flex-wrap:wrap;
 }
 
-.project:nth-child(even) {
-  top:100px;
+.project:nth-child(3n - 1) {
+  margin-top:100px;
 }
 
 .project {
@@ -317,15 +317,24 @@ nav .menu {
 .project h2  {
   font-size: 46px;
   line-height:46px;
+  margin-bottom:16px;
 }
 
 .project .title {
   color: var(--accentColor);
   width:50%;
   line-height:20px;
+  margin: 8px 0;
 }
 
 .project.editing h2 {
+  font-weight:bold;
+}
+
+.project.editing .author {
+  margin-top:8px;
+  margin-bottom:0;
+  font-size:22px;
   font-weight:bold;
 }
 
@@ -563,7 +572,7 @@ nav .menu {
     max-width: 100%;
     min-width: 100%;
   }
-  .project:nth-child(even) {
+  .project:nth-child(3n - 1) {
     top: 0;
   }
   .project.writing h2 {
@@ -572,5 +581,8 @@ nav .menu {
   }
   .project .title {
     width:70%;
+  }
+  .wrap-smaller {
+    padding: 60px 20px;
   }
 }

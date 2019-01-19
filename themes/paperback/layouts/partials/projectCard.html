@@ -6,5 +6,10 @@
     <p class="title">
       {{ .Title }}
     </p>
+    {{ with .Params.Author }}
+    <p class="author">
+      {{ . }}
+    </p>
+    {{ end }}
   </div>
 </a>
