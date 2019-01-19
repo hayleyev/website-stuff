@@ -1,0 +1,20 @@
+---
+label: project
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: textarea
+  name: quote
+  label: Quote
+- type: text
+  name: author
+  label: Author
+- type: text
+  label: projectUrl
+  name: projecturl
+- type: file
+  name: image
+  label: Image
