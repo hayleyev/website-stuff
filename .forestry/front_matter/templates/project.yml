@@ -22,3 +22,5 @@ fields:
   name: author
   label: Author
 - type: text
+pages:
+- content/projects/test.md
