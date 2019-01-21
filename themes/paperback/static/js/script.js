@@ -14,18 +14,28 @@ jQuery(function($) {
 
     // filter on load
     let url = window.location;
+    let value = url.hash.substring(1);
     let filter_value = "." + url.hash.substring(1);
-    projects.isotope({ filter: filter_value });
+    if(url.hash.length > 1 && url.hash.includes("#")) {
+      projects.isotope({ filter: filter_value });
+      $(".menu-item")
+        .removeClass("active")
+      $('a[href="/#' + value + '"]')
+        .addClass("active");
+    }
 
     // filter on change
     $(window).bind('hashchange', function() {
       let url = window.location;
+      let value = url.hash.substring(1);
       let filter_value = url.hash.substring(1);
-      projects.isotope({ filter: "." + filter_value });
-      $(".menu-item")
-        .removeClass("active")
-      $('a[href="#' + filter_value + '"]')
-        .addClass("active");
+      if(url.hash.length > 1 && url.hash.includes("#")) {
+        projects.isotope({ filter: "." + filter_value });
+        $(".menu-item")
+          .removeClass("active")
+        $('a[href="/#' + value + '"]')
+          .addClass("active");
+    }
     });
   });
 });
