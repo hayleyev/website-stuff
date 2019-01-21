@@ -9,15 +9,24 @@ fields:
 - type: textarea
   name: quote
   label: Quote
+  config:
+    required: true
 - type: text
   label: projectUrl
   name: projecturl
+  config:
+    required: true
 - type: text
   name: title
   label: Title
+  config:
+    required: true
 - type: text
   name: type
   label: Type
+  config:
+    required: true
+  default: writing
 - type: text
   name: author
   label: Author
