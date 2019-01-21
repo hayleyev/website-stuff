@@ -3,6 +3,9 @@ title: About
 description: A sentient life form ... possibly human.
 
 ---
+
+![](/uploads/DSC03120.png)
+
 ## A sentient life form…
 
 (I’ll think of some interesting things to say.)
