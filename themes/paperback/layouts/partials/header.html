@@ -48,14 +48,28 @@
 
   <body class="home">
     <nav>
-      <div class="wrap flex-row big-padding-top medium-padding-bottom">
+      <div class="wrap flex-row big-padding-top medium-padding-bottom header">
         <a class="title flex-1" href="/">Hayley Evans</a>
-        <div class="menu flex-1">
+        <div class="menu flex-1 desktop">
           {{ range .Site.Menus.main }}
             <a class="menu-item" href="{{ .URL }}">
               {{ .Name }}
             </a>
           {{ end }}
+        </div>
+        <div class="mobile-menu flex-1 mobile">
+          <a class="menu-button">Table of<br />Contents</a>
+          <div class="menu-content hidden">
+            <div class="top">
+              <h3>Table of<br />Contents</h3>
+              <h3 class="close">Close</h3>
+            </div>
+            {{ range .Site.Menus.main }}
+              <a class="menu-item" href="{{ .URL }}">
+                {{ .Name }}
+              </a>
+            {{ end }}
+          </div>
         </div>
       </div>
     </nav>

@@ -37,5 +37,22 @@ jQuery(function($) {
           .addClass("active");
     }
     });
+
+    // mobile menu {
+    $('.menu-button').click(function() {
+      $('.menu-content').toggleClass('visible');
+      $('.menu-content').toggleClass('hidden');
+    });
+
+    $('.menu-content').find('.close').click(function() {
+      $('.menu-content').toggleClass('visible');
+      $('.menu-content').toggleClass('hidden');
+    });
+
+    $('.menu-content').find('a').click(function() {
+      $('.menu-content').toggleClass('visible');
+      $('.menu-content').toggleClass('hidden');
+    });
+
   });
 });
