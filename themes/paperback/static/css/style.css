@@ -1,5 +1,5 @@
 :root {
-  --backColor: #272324;
+  --backColor: #1b1819;
   --textColor: #fff;
   --accentColor: #d62e0d;
 }
@@ -137,16 +137,18 @@ html {
   font-family: 'Aktiv Grotesk', sans-serif;
   font-size: 18px;
   line-height: 1.5em;
-  background: var(--backColor);
   color: var(--textColor);
+  background: var(--backColor);
 }
 
 body {
   margin: 0;
-  //background: url('/uploads/corner-right-top.png');
-  background-position:top right;
+  //background-image: url('/uploads/back-black.png');
+  background-color: var(--backColor);
+  background-blend-mode: multiply;
+  background-position:0 -14px;
   background-repeat:no-repeat;
-  background-size: 400px;
+  background-size: 100% auto;
 }
 
 h1 {
@@ -341,7 +343,7 @@ display: block;
 
 .top-quote,
 .bottom-quote {
-  max-width:310px;
+  max-width:340px;
   text-align:center;
   margin:0 auto;
   font-style: italic;
@@ -350,6 +352,10 @@ display: block;
 .top-quote a,
 .bottom-quote a {
   text-decoration:none;
+  font-weight:bold;
+  letter-spacing:1px;
+  font-size:16px;
+  line-height:16px;
 }
 
 .top-quote {
@@ -363,6 +369,24 @@ display: block;
 .top-quote a:hover,
 .bottom-quote a:hover {
   color:var(--accentColor);
+}
+
+.back-top-left {
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.back-top-right {
+  position:absolute;
+  top:0;
+  right:0;
+  //background-image:url('/uploads/corner-right-top.png');
+  width:300px;
+  pointer-events:none;
+  background-size:300px;
+  height:600px;
+  background-repeat:no-repeat;
 }
 
 /* -------- About ---------*/
@@ -697,6 +721,7 @@ display: block;
   body {
     width: 100%;
     overflow-x: hidden;
+    background-size: 200% auto;
   }
   .mobile {
     display: block;
@@ -759,5 +784,11 @@ display: block;
   .header {
     position:relative;
     z-index:1000;
+  }
+  .back-top-right {
+    top: -5px;
+    right: -7px;
+    background-size:230px;
+    width:230px;
   }
 }
