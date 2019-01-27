@@ -7,7 +7,15 @@ description: A sentient life form ... possibly human.
 
 ## A sentient life form…
 
-(I’ll think of some interesting things to say.  )
+Hayley Evans is a writer, editor, and self-professed dark weirdo. Her affinity lies with things that are morbid, philosophic, erotic, or strange (or an unholy combination thereof).
+
+Her words, compelling and sometimes poetic, have appeared in online art publications, where she’s written prolifically about dark art: occult-themed photography, body horror sculptures, existential cinema, and beyond. Forever fascinated by philosophies of madness, politics of resistance, and answers to the eternal question “why,” she has interviewed well known and obscure artists about their creative vocations. Her ability to empathize and ask deeper questions allows her to connect with her subjects in a way that is rare to see.
+
+Hayley has also worked as an editor for six years, polishing manuscripts for various publishing houses. Predictably, she specializes in the (sub)genres of dark fantasy, science fiction, post-apocalyptic fiction, feminist erotica, horror, and books of a philosophic nature.
+
+In 2014, she graduated with an MA in English literature from the University of Victoria. Her final project analyzed representations of bodies and eroticism in culturally reflective Canadian sci-fi literature.
+
+She currently lives in Montreal with a strange-looking cat and a collection of dusty books and broken animal bones.
 
 ## <span class="text-right">…possibly human.</span>
 
