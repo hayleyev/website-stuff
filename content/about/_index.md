@@ -1,21 +1,21 @@
 ---
 title: About
-description: A sentient life form ... possibly human.
+description: A peculiar life form ... possibly human.
 
 ---
 ![](/uploads/DSC03120.png)
 
-## A sentient life form…
+## A peculiar life form…
 
 Hayley Evans is a writer, editor, and self-professed dark weirdo. Her affinity lies with things that are morbid, philosophic, erotic, or strange (or an unholy combination thereof).
 
-Her words, compelling and sometimes poetic, have appeared in online art publications, where she’s written prolifically about dark art: occult-themed photography, body horror sculptures, existential cinema, and beyond. Forever fascinated by philosophies of madness, politics of resistance, and answers to the eternal question “why,” she has interviewed well known and obscure artists about their creative vocations. Her ability to empathize and ask deeper questions allows her to connect with her subjects in a way that is rare to see.
+Her words have appeared in online art publications, where she specializes in writing about occult-themed photography, body horror sculptures, existential cinema, and other forms of dark art. She has interviewed a broad range of well known and obscure artists, where her ability to detect artistic nuance uncovers compelling and hidden insights.
 
-Hayley has also worked as an editor for six years, polishing manuscripts for various publishing houses. Predictably, she specializes in the (sub)genres of dark fantasy, science fiction, post-apocalyptic fiction, feminist erotica, horror, and books of a philosophic nature.
+Hayley has worked as an editor for six years, polishing manuscripts for various publishing houses. She specializes in (sub)genres of dark fantasy, science fiction, post-apocalyptic fiction, feminist erotica, horror, and philosophy-forward works. 
 
-In 2014, she graduated with an MA in English literature from the University of Victoria. Her final project analyzed representations of bodies and eroticism in culturally reflective Canadian sci-fi literature.
+She holds an MA in English literature from the University of Victoria, where she focused on representations of bodies and eroticism in culturally reflective Canadian sci-fi literature.
 
-She currently lives in Montreal with a strange-looking cat and a collection of dusty books and broken animal bones.
+She currently lives in Montreal with a possibly-demonic cat amidst a collection of dusty books and broken animal bones.
 
 ## <span class="text-right">…possibly human.</span>
 
