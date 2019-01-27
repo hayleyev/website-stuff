@@ -3,14 +3,14 @@
   </div>
   <div class="desc medium-padding-left flex-1">
     {{ if eq .Params.type "editing" }}
+      <p class="title">
+        {{ .Title }}
+      </p>
       {{ with .Params.Author }}
       <p class="author">
         {{ . }}
       </p>
       {{ end }}
-      <p class="title">
-        {{ .Title }}
-      </p>
     {{ end }}
     <h2 class="quote">{{ .Params.Quote }}</h2>
     {{ if ne .Params.type "editing" }}

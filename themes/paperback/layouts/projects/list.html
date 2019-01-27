@@ -9,7 +9,12 @@
   </div>
   <div class="projects flex-row">
     {{ range .Pages }}
-      {{ partial "projectCard.html" . }}
+      {{ if eq .Params.type "insert" }}
+        {{ partial "insert.html" . }}
+      {{ end }}
+      {{ if not (eq .Params.type "insert") }}
+        {{ partial "projectCard.html" . }}
+      {{ end }}
     {{ end }}
   </div>
   <div class="bottom-quote">

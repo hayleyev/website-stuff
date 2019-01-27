@@ -38,6 +38,9 @@ jQuery(function($) {
     }
     });
 
+    // set mobile menu to display block when site has loaded
+    $('.menu-content').css('display', 'block');
+
     // mobile menu {
     $('.menu-button').click(function() {
       $('.menu-content').toggleClass('visible');
