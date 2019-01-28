@@ -342,9 +342,8 @@ nav .menu {
 .top-quote a,
 .bottom-quote a {
   text-decoration:none;
-  font-weight:bold;
   letter-spacing:1px;
-  font-size:16px;
+  font-size: 23px;
   line-height:16px;
 }
 
@@ -450,7 +449,7 @@ nav .menu {
   position:absolute;
   z-index:0;
   filter: grayscale(100%);
-  /*opacity:0.7;*/
+  opacity:0.7;
   background-position: center center;
   -webkit-animation: fadein .3s;
      -moz-animation: fadein .3s;
@@ -489,6 +488,9 @@ nav .menu {
 .project.editing h2 {
   font-weight:bold;
   font-family: 'HawthornEF';
+  font-size:55px;
+  margin-top:22px;
+  letter-spacing: 0.5px;
 }
 
 .project.editing .desc {

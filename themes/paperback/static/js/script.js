@@ -22,6 +22,11 @@ jQuery(function($) {
         .removeClass("active")
       $('a[href="/#' + value + '"]')
         .addClass("active");
+    } else {
+      let path = "/" + url.href.split('/')[3];
+      if(path && $('a[href="' + path + '"]').length > 0) {
+        $('a[href="' + path + '"]').addClass("active");
+      }
     }
 
     // filter on change
@@ -35,7 +40,7 @@ jQuery(function($) {
           .removeClass("active")
         $('a[href="/#' + value + '"]')
           .addClass("active");
-    }
+      }
     });
 
     // set mobile menu to display block when site has loaded
