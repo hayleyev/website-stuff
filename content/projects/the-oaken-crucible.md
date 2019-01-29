@@ -5,6 +5,6 @@ picture = "/uploads/oaken crucible.jpg"
 projecturl = "https://www.zhertvatrilogy.com/"
 quote = "blood on his hands,  lies behind his eyes."
 title = "The Oaken Crucible"
-type = "writing"
+type = "editing"
 
 +++
