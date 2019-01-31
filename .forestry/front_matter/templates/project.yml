@@ -31,7 +31,6 @@ fields:
   name: author
   label: Author
 pages:
-- content/projects/photography-by-helena-darling-1.md
 - content/projects/test.md
 - content/projects/concrete-sex-sasha-kurmaz.md
 - content/projects/disfigured-flesh-sarah-sitkin.md
