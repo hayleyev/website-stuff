@@ -4,10 +4,6 @@ title = "Hayley Evans"
 theme = "paperback"
 enableEmoji = true
 
-[params]
-  topQuote = '"... a fierce, almost obsessive, attention to detail and ruthless will ..."'
-  bottomQuote = '"She reads the darkness ..."'
-
 [[menu.main]]
 name = "Writing"
 url = "/#writing"
