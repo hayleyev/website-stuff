@@ -1,22 +1,26 @@
 <a href="{{ .Params.projectUrl }}" class="flex-1 project medium-padding {{ .Params.type }}">
-  <div class="picture" style="background-image:url({{ .Params.Picture }});">
-  </div>
-  <div class="desc medium-padding-left flex-1">
-    {{ if eq .Params.type "editing" }}
+  {{ if eq .Params.type "editing" }}
+    <div class="picture" style="background-image:url(/uploads/book-illu.png);">
+    </div>
+    <div class="desc medium-padding-left flex-1">
       <p class="title">
         {{ .Title }}
       </p>
       {{ with .Params.Author }}
-      <p class="author">
-        {{ . }}
-      </p>
+        <p class="author">
+          {{ . }}
+        </p>
       {{ end }}
-    {{ end }}
-    <h2 class="quote">{{ .Params.Quote }}</h2>
-    {{ if ne .Params.type "editing" }}
+    </div>
+  {{ end }}
+  {{ if ne .Params.type "editing" }}
+    <div class="picture" style="background-image:url({{ .Params.Picture }});">
+    </div>
+    <div class="desc medium-padding-left flex-1">
+      <h2 class="quote">{{ .Params.Quote }}</h2>
       <p class="title">
         {{ .Title }}
       </p>
-    {{ end }}
-  </div>
+    </div>
+  {{ end }}
 </a>
