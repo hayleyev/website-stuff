@@ -4,6 +4,9 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: data/quotes/quotes.json
+  label: Home page quotes
 - type: directory
   path: content/projects
   label: Projects
