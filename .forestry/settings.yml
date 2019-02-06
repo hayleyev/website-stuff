@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/quotes/quotes.json
   label: Home page quotes
-  match: "**/*"
 - type: directory
   path: content/projects
   label: Projects
