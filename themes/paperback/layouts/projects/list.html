@@ -2,25 +2,20 @@
 
 <div class="wrap big-padding-top">
   <div class="top-quote">
-    <a href="/about">
-      “... a fierce, almost obsessive,
-     attention to detail and ruthless will ...”
-    </a>
+    <a href="/about"> {{ $.Site.Params.topQuote }} </a>
   </div>
   <div class="projects flex-row">
     {{ range .Pages }}
-      {{ if eq .Params.type "insert" }}
-        {{ partial "insert.html" . }}
-      {{ end }}
-      {{ if not (eq .Params.type "insert") }}
-        {{ partial "projectCard.html" . }}
-      {{ end }}
+    {{ if eq .Params.type "insert" }}
+    {{ partial "insert.html" . }}
+    {{ end }}
+    {{ if not (eq .Params.type "insert") }}
+    {{ partial "projectCard.html" . }}
+    {{ end }}
     {{ end }}
   </div>
   <div class="bottom-quote">
-    <a href="/about">
-      “She reads the darkness ...”
-    </a>
+    <a href="/about"> {{ $.Site.Params.bottomQuote }} </a>
   </div>
 </div>
 
