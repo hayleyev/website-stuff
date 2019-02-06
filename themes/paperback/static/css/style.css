@@ -433,6 +433,28 @@ nav .menu {
   margin-top:150px;
 }
 
+.social {
+  padding-top:30px;
+  font-weight:bold;
+  line-height:25px;
+}
+
+.social a {
+  text-decoration:none;
+  display:inline-block;
+}
+
+.social .spacer {
+  display:inline-block;
+  padding: 0 16px;
+}
+
+.social a.social-link {
+  font-size:25px;
+  position:relative;
+  bottom:-2px;
+}
+
 /* -------- PROJECTS ---------*/
 
 .projects {
