@@ -6,6 +6,7 @@ projecturl = "https://books.friesenpress.com/store/title/119734000040411467"
 quote = "drowning their innocence."
 title = "The Rushing of the Brook"
 type = "editing"
+authorurl = "https:/test.com/"
 weight = 15
 
 +++
