@@ -6,5 +6,6 @@ projecturl = "https://www.zhertvatrilogy.com/"
 quote = "blood on his hands,  lies behind his eyes."
 title = "The Oaken Crucible"
 type = "editing"
+weight = 15
 
 +++

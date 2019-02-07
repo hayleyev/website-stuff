@@ -4,5 +4,6 @@ projecturl = "https://scene360.com/art/103810/olivier-de-sagazan/"
 quote = "Hideous, Terrible, Magical Body"
 title = "Interview with Olivier de Sagazan"
 type = "interviews"
+weight = 9
 
 +++

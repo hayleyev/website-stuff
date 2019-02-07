@@ -4,5 +4,6 @@ projecturl = "http://www.beautifuldecay.com/2015/05/04/philip-ob-rey-builds-apoc
 quote = "waste, memories, and knowledge, resurrected. "
 title = "VHS Giants by Philip Ob Rey "
 type = "writing"
+weight = 10
 
 +++

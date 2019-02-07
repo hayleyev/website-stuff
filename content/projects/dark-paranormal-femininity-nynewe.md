@@ -6,5 +6,6 @@ projecturl = "https://scene360.com/art/100359/nynewe/"
 quote = "the psychological influence of legends."
 title = "Dark Paranormal Femininity: Nynewe "
 type = "writing"
+weight = 3
 
 +++

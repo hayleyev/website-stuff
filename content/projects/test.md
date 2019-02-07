@@ -6,5 +6,6 @@ projecturl = "https://scene360.com/art/113805/the-ljilja/"
 quote = "We Die to Become"
 title = "Interview with The Ljilja"
 type = "interviews"
+weight = 14
 
 +++

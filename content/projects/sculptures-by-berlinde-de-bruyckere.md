@@ -6,5 +6,6 @@ projecturl = "https://scene360.com/art/103841/berlinde-de-bruyckere/"
 quote = "repulsion collapses into tenderness. "
 title = "Sculptures by Berlinde de Bruyckere"
 type = "writing"
+weight = 11
 
 +++

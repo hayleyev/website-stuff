@@ -6,5 +6,6 @@ projecturl = "https://scene360.com/art/112792/stephanie-inagaki/"
 quote = "fusions of self and myth."
 title = "Art by Stephanie Inagaki"
 type = "writing"
+weight = 1
 
 +++

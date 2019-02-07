@@ -6,5 +6,6 @@ projecturl = "https://scene360.com/art/114756/tim-noble-and-sue-webster/"
 quote = "casting light on grotesque assemblages."
 title = "Shadow Sculptures by Tim Noble & Sue Webster"
 type = "writing"
+weight = 12
 
 +++

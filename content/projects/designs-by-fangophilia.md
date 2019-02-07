@@ -6,5 +6,6 @@ projecturl = "http://www.beautifuldecay.com/2015/01/09/japanese-designer-fangoph
 quote = "fashion with a vampiric edge. "
 title = "Designs by Fangophilia "
 type = "writing"
+weight = 4
 
 +++

@@ -6,5 +6,6 @@ projecturl = "https://scene360.com/art/109400/placide-avantia-interview/"
 quote = "Darkened Ink"
 title = "Interview with Placide Avantia "
 type = "interviews"
+weight = 7
 
 +++

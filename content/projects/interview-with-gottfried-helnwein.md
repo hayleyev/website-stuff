@@ -6,5 +6,6 @@ projecturl = "https://scene360.com/art/100435/gottfried-helnwein/"
 quote = "Lost Innocence, Enduring Resistance"
 title = "Interview with Gottfried Helnwein"
 type = "interviews"
+weight = 6
 
 +++

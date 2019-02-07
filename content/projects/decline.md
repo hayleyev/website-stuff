@@ -5,5 +5,6 @@ projecturl = "http://test.com"
 quote = "terror and slaughter, stillness and peace."
 title = "Decline"
 type = "editing"
+weight = 3
 
 +++
