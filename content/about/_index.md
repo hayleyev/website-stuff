@@ -11,7 +11,7 @@ Hayley Evans is a writer, editor, and self-professed dark weirdo. Her affinity l
 
 Her words have appeared in online art publications, where she specializes in writing about occult-themed photography, body horror sculptures, existential cinema, and other forms of dark art. She has interviewed a broad range of well known and obscure artists, where her ability to detect artistic nuance uncovers compelling and hidden insights.
 
-Hayley has worked as an editor for six years, polishing manuscripts for various publishing houses. She specializes in the (sub)genres of dark fantasy, science fiction, post-apocalyptic fiction, feminist erotica, horror, and philosophy-forward works. 
+Hayley has worked as an editor for six years, polishing manuscripts for various publishing houses. She specializes in the (sub)genres of dark fantasy, science fiction, post-apocalyptic fiction, feminist erotica, horror, and philosophy-forward works.
 
 She holds an MA in English literature from the University of Victoria, where she focused on representations of bodies and eroticism in culturally reflective Canadian sci-fi literature.
 
@@ -31,4 +31,4 @@ She currently lives in Montreal with a possibly-demonic cat amidst a collection 
 
 > "Like a cat, she has the gift of an enhanced sight. She reads the darkness and translates her analytical and sensible vision into words. It is truly inspiring to collaborate with her."
 
-###### — _Marie-Lou Desmeules, living sculpture artist_
+###### — Marie-Lou Desmeules, living sculpture artist

@@ -622,7 +622,14 @@ nav .menu {
 .about blockquote {
   margin-left:0;
   margin-right:0;
+  left:-25px;
   font-style: italic;
+  position:relative;
+}
+
+.about blockquote:first-of-type,
+.about blockquote:last-of-type {
+  left:25px;
 }
 
 .about h6 {
@@ -630,6 +637,15 @@ nav .menu {
   line-height: 18px;
   opacity: 0.5;
   margin: 8px 0 36px 0;
+  font-weight: normal;
+  font-style: normal;
+  position:relative;
+  left:-25px;
+}
+
+.about h6:first-of-type,
+.about h6:last-of-type {
+  left:25px;
 }
 
 .about h2 span {
@@ -973,5 +989,52 @@ nav .menu {
     top: -8px;
     left: -8px;
     background-size: 200px;
+  }
+  .bottom-black-back {
+    overflow-x: hidden;
+    background-size: 200% auto;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+  .project.editing {
+    padding:30px;
+  }
+  .project.editing .picture {
+    width: calc(100% - 58px);
+  }
+  .project.editing .author {
+    width: calc(100% - 60px);
+  }
+  .project.editing .title {
+    width: calc(100% - 60px);
+  }
+  .project.editing .desc {
+    padding-left:60px;
+  }
+  .social {
+    text-align:center;
+  }
+  .social a {
+    display:block;
+  }
+  .social a.social-link {
+    display:inline-block;
+    margin-top:20px;
+  }
+  .social .spacer:first-of-type {
+    display:none;
+  }
+  .about blockquote:first-of-type,
+  .about blockquote:last-of-type {
+    left:0;
+  }
+  .about blockquote {
+    left:0;
+  }
+  .about h6:first-of-type, .about h6:last-of-type {
+    left:0;
+  }
+  .about h6 {
+    left:0;
   }
 }
