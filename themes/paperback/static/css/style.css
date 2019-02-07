@@ -502,6 +502,14 @@ nav .menu {
   margin-top:177px;
 }
 
+.project a {
+  text-decoration:none;
+}
+
+.project a.author-link:hover {
+  text-decoration:underline;
+}
+
 .project h2  {
   font-size: 46px;
   line-height:46px;
