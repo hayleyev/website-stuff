@@ -7,6 +7,6 @@ projecturl = "http://www.beautifuldecay.com/2015/02/03/thought-provoking-effects
 quote = "a sinking stomach, a staggered thought."
 title = "Nathan Coley’s Illuminated Text Sculptures"
 type = "writing"
-weight = 3
+weight = 4
 
 +++
