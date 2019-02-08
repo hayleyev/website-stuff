@@ -7,6 +7,6 @@ projecturl = "https://scene360.com/art/103279/nicola-samori/"
 quote = "disturbing the body to disturb the mind."
 title = "The Nature of Fear: Nicola Samori"
 type = "writing"
-weight = 2
+weight = 3
 
 +++
