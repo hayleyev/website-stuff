@@ -7,6 +7,6 @@ projecturl = "http://www.beautifuldecay.com/2015/07/24/laura-makabreskus-etherea
 quote = "a subtly violent and erotic ritual."
 title = "Photography by Laura Makabresku"
 type = "writing"
-weight = 3
+weight = 4
 
 +++
