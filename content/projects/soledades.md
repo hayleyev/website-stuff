@@ -1,6 +1,6 @@
 +++
 author = "Atkin Knowles Akar"
-authorurl = "https:/test.com/"
+authorurl = ""
 date = "2019-01-29T20:36:49+00:00"
 picture = "/uploads/soledades photo-1.jpg"
 projecturl = "https://books.friesenpress.com/store/title/119734000024869127/Atkin-Knowles-Akar-Soledades"
