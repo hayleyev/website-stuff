@@ -44,22 +44,22 @@ jQuery(function($) {
     });
 
     // set mobile menu to display block when site has loaded
-    $('.menu-content').css('display', 'block');
+    // $('.menu-content').css('display', 'block');
 
     // mobile menu {
     $('.menu-button').click(function() {
-      $('.menu-content').toggleClass('visible');
-      $('.menu-content').toggleClass('hidden');
+      $('.menu-content').addClass('visible');
+      $('.menu-content').removeClass('hidden');
     });
 
     $('.menu-content').find('.close').click(function() {
-      $('.menu-content').toggleClass('visible');
-      $('.menu-content').toggleClass('hidden');
+      $('.menu-content').removeClass('visible');
+      $('.menu-content').addClass('hidden');
     });
 
     $('.menu-content').find('a').click(function() {
-      $('.menu-content').toggleClass('visible');
-      $('.menu-content').toggleClass('hidden');
+      $('.menu-content').removeClass('visible');
+      $('.menu-content').addClass('hidden');
     });
 
   });

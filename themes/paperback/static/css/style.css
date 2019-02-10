@@ -292,7 +292,8 @@ nav .menu {
   bottom:0;
   z-index:1000;
   counter-reset: pagenumbers;
-  display:none;
+  opacity:0;
+  pointer-events: none;
 }
 
 .mobile-menu .menu-content a {
@@ -331,9 +332,11 @@ nav .menu {
   opacity:0;
   -webkit-animation: fadein 0.3s linear forwards;
   animation: fadein 0.3s linear forwards;
+  pointer-events: auto;
 }
 
 .mobile-menu .menu-content.hidden {
+  opacity: 1;
   -webkit-animation: fadeout 0.3s linear forwards;
   animation: fadeout 0.3s linear forwards;
   pointer-events: none;
