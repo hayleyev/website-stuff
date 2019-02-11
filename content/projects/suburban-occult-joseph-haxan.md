@@ -7,6 +7,6 @@ projecturl = "https://scene360.com/art/111731/joseph-haxan/"
 quote = "gaping into the void, as one does at birth and death."
 title = "Suburban Occult: Joseph Haxan"
 type = "writing"
-weight = 2
+weight = 4
 
 +++
