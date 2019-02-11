@@ -1,22 +1,24 @@
 <div class="flex-1 project medium-padding {{ .Params.type }}">
   {{ if eq .Params.type "editing" }}
-    <div class="picture" style="background-image:url(/uploads/book-illu.png);">
-    </div>
-    <div class="desc medium-padding-left flex-1">
-      <a href="{{ .Params.projectUrl }}">
-      <p class="title">
-        {{ .Title }}
-      </p>
-      </a>
-        <p class="author">
-          {{ if (not (isset .Params "authorurl")) | or (eq .Params.authorurl "") }}
-            {{ .Params.Author }}
-          {{ else }}
-          <a class="author-link" href="{{ .Params.AuthorUrl }}">
-            {{ .Params.Author }}
-          </a>
-          {{ end }}
+    <div class="center">
+      <div class="picture" style="background-image:url(/uploads/book-illu.png);">
+      </div>
+      <div class="desc medium-padding-left flex-1">
+        <a href="{{ .Params.projectUrl }}">
+        <p class="title">
+          {{ .Title | safeHTML }}
         </p>
+        </a>
+          <p class="author">
+            {{ if (not (isset .Params "authorurl")) | or (eq .Params.authorurl "") }}
+              {{ .Params.Author }}
+            {{ else }}
+            <a class="author-link" href="{{ .Params.AuthorUrl }}">
+              {{ .Params.Author }}
+            </a>
+            {{ end }}
+          </p>
+      </div>
     </div>
   {{ end }}
   {{ if ne .Params.type "editing" }}
@@ -24,11 +26,11 @@
     </div>
     <div class="desc medium-padding-left flex-1">
       <a href="{{ .Params.projectUrl }}">
-      <h2 class="quote">{{ .Params.Quote }}</h2>
+      <h2 class="quote">{{ .Params.Quote | safeHTML }}</h2>
       </a>
       <a href="{{ .Params.projectUrl }}">
       <p class="title">
-        {{ .Title }}
+        {{ .Title | safeHTML }}
       </p>
       </a>
     </div>

@@ -541,16 +541,35 @@ nav .menu {
   min-height:450px;
 }
 
+.project.editing .picture {
+  position:static;
+  margin: 0 auto;
+}
+
+.project.editing .center {
+  position:relative;
+  width:100%;
+  text-align:center;
+}
+
 .project.editing h2 {
   font-weight:bold;
   font-family: 'HawthornEF';
   font-size:55px;
   margin-top:22px;
   letter-spacing: 0.5px;
+  text-align:center;
 }
 
 .project.editing .desc {
   margin-top:100px;
+  position:absolute;
+  top:0;
+  width:300px;
+  text-align:center;
+  left:50%;
+  margin-left:-150px;
+  padding:0;
 }
 
 .project.editing .title {
@@ -563,6 +582,7 @@ nav .menu {
   transition:0.3s;
   padding: 0 24px;
   box-sizing: border-box;
+  margin:0 auto;
 }
 
 .project.editing:hover .title {
@@ -572,9 +592,8 @@ nav .menu {
 .project.editing .author {
   width: calc(70% - 60px);
   text-align:center;
-  margin-top:8px;
-  margin-bottom:0;
   color:var(--accentColor);
+  margin:8px auto 0 auto;
 }
 
 .project.editing .picture {
@@ -1012,9 +1031,6 @@ nav .menu {
   }
   .project.editing .title {
     width: calc(100% - 60px);
-  }
-  .project.editing .desc {
-    padding-left:60px;
   }
   .social {
     text-align:center;
