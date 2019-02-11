@@ -6,7 +6,7 @@ picture = ""
 projecturl = "https://books.friesenpress.com/store/title/119734000045326576/Sueanne-Pacheco-Mrs.-Langlois%27-House"
 quote = "n/a"
 title = "Mrs. Langlois' House"
-type = "writing"
+type = "editing"
 weight = ""
 
 +++
