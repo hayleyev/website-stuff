@@ -9,9 +9,9 @@ description: A peculiar life form ... possibly human.
 
 Hayley Evans is a writer, editor, and self-professed dark weirdo. Her affinity lies with things that are morbid, philosophic, erotic, or strange (or an unholy combination thereof).
 
-Her words have appeared in online art publications, where she specializes in writing about occult-themed photography, grotesque performance art, existential cinema, and other forms of dark art. She has interviewed a range of well known and obscure artists, where her ability to detect artistic nuance uncovers compelling and hidden insights.
+Her words have appeared in online art publications, where she specializes in writing about occult-themed photography, grotesque performance art, rogue taxidermy, existential cinema, and other forms of dark art. She has interviewed a range of well known and obscure artists, where her ability to detect artistic nuance uncovers compelling and hidden insights.
 
-Hayley has worked as an editor for six years, polishing manuscripts for various publishing houses. She specializes in the (sub)genres of dark fantasy, science fiction, post-apocalyptic fiction, feminist erotica, horror, and philosophy-forward works.
+Hayley has worked as an editor for six years, polishing manuscripts for various publishing houses. She specializes in the (sub)genres of dark fantasy,  science fiction, post-apocalyptic fiction, feminist & LGBTQ literature, literary theory & criticism, and philosophy-forward works.
 
 She holds an MA in English literature from the University of Victoria, where she focused on representations of bodies and eroticism in culturally reflective Canadian sci-fi literature.
 

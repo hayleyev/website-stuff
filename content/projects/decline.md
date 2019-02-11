@@ -6,6 +6,6 @@ projecturl = "https://books.friesenpress.com/store/title/119734000033725392/Jare
 quote = "terror and slaughter, stillness and peace."
 title = "Decline"
 type = "editing"
-weight = 2
+weight = 5
 
 +++
