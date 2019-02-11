@@ -4,6 +4,6 @@ projecturl = "http://www.beautifuldecay.com/2015/02/13/e-v-days-tongue-clam-scul
 quote = "drenched and dripping."
 title = "E.V. Day’s Tongue and Clam Sculptures"
 type = "writing"
-weight = 5
+weight = 25
 
 +++
