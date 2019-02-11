@@ -7,6 +7,6 @@ projecturl = "https://books.friesenpress.com/store/title/119734000045326576/Suea
 quote = "n/a"
 title = "Mrs. Langlois' House"
 type = "editing"
-weight = ""
+weight = 23
 
 +++
