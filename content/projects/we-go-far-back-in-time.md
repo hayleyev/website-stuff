@@ -7,6 +7,6 @@ projecturl = "http://www.harbourpublishing.com/title/wegofarbackintime"
 quote = "n/a"
 title = "We Go Far Back in Time"
 type = "editing"
-weight = ""
+weight = 29
 
 +++
