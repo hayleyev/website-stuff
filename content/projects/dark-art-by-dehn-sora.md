@@ -7,6 +7,6 @@ projecturl = "https://scene360.com/art/102423/dehn-sora/"
 quote = "they have lifted themselves from the dirt."
 title = "Rituals of the Sleepless Dead: Dehn Sora"
 type = "writing"
-weight = 7
+weight = 13
 
 +++
