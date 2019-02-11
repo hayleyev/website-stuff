@@ -7,6 +7,6 @@ projecturl = "https://www.routledge.com/The-Modernist-World-1st-Edition/Lindgren
 quote = "n/a"
 title = "The Modernist World"
 type = "editing"
-weight = ""
+weight = 17
 
 +++
