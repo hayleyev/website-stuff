@@ -7,6 +7,6 @@ projecturl = "https://scene360.com/weird/90764/rogue-taxidermy-art/"
 quote = "recalling their lives in emotional ways."
 title = "10 Rogue Taxidermy Artists"
 type = "writing"
-weight = ""
+weight = 22
 
 +++
