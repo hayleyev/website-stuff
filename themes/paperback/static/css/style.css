@@ -1097,4 +1097,9 @@ nav .menu {
   .about h6 {
     left:0;
   }
+  .scribble-1,
+  .scribble-2,
+  .scribble-3 {
+    display:none;
+  }
 }
