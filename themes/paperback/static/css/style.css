@@ -163,6 +163,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position:relative;
+  overflow-x:hidden;
+
 }
 
 .bottom-black-back {
@@ -459,6 +461,37 @@ nav .menu {
   position:relative;
   bottom:-2px;
 }
+
+/* -------- SCRIBBLES ---------*/
+
+.scribble-1 {
+  width:350px;
+  position:absolute;
+  left: 6px;
+  top:calc(250px + (4 * 360px));
+  z-index:1000;
+  pointer-events:none;
+}
+
+.scribble-2 {
+  width:330px;
+  position:absolute;
+  right: -15px;
+  top:calc(250px + (7 * 400px));
+  z-index:1000;
+  pointer-events:none;
+}
+
+
+.scribble-3 {
+  width:700px;
+  position:absolute;
+  left: 0;
+  top:calc(250px + (8 * 430px));
+  z-index:1000;
+  pointer-events:none;
+}
+
 
 /* -------- PROJECTS ---------*/
 
