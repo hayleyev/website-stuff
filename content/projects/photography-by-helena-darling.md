@@ -7,6 +7,6 @@ projecturl = "https://scene360.com/art/115740/helena-darling/"
 quote = "the power of the craft."
 title = "Photography by Helena Darling"
 type = "writing"
-weight = 1
+weight = 10
 
 +++
