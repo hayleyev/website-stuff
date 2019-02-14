@@ -7,6 +7,6 @@ projecturl = "https://scene360.com/art/111985/krist-mort/"
 quote = "forever evading certainty."
 title = "Light through Shadow: Krist Mort"
 type = "writing"
-weight = 10
+weight = 1
 
 +++
