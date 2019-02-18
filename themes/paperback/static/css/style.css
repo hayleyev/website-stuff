@@ -468,7 +468,7 @@ nav .menu {
   width:350px;
   position:absolute;
   left: 6px;
-  top:calc(250px + (4 * 360px));
+  top:calc(250px + (14 * 360px));
   z-index:1000;
   pointer-events:none;
 }
@@ -504,6 +504,42 @@ nav .menu {
 .project:nth-child(3n - 1),
 .insert:nth-child(3n - 1) {
   margin-top:100px;
+}
+
+.editing .project,
+.editing .insert {
+  margin-top:0px;
+}
+
+.interviews .project,
+.interviews .insert {
+  margin-top:0px;
+}
+
+.writing .project,
+.writing .insert {
+  margin-top:0px;
+}
+
+.interviews .scribble-3,
+.interviews .scribble-1,
+.editing .scribble-2,
+.editing .scribble-3,
+.writing .scribble-1,
+.writing .scribble-2 {
+  display:none;
+}
+
+.interviews .scribble-2 {
+  top:600px;
+}
+
+.editing .scribble-1 {
+  top:1100px;
+}
+
+.writing .scribble-3 {
+  top:1800px;
 }
 
 .project,

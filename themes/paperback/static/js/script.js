@@ -18,6 +18,8 @@ jQuery(function($) {
     let filter_value = "." + url.hash.substring(1);
     if(url.hash.length > 1 && url.hash.includes("#")) {
       projects.isotope({ filter: filter_value });
+      $('body').removeClass('writing').removeClass('editing').removeClass('interviews');
+      $('body').addClass(value);
       $(".menu-item")
         .removeClass("active")
       $('a[href="/#' + value + '"]')
@@ -36,6 +38,8 @@ jQuery(function($) {
       let filter_value = url.hash.substring(1);
       if(url.hash.length > 1 && url.hash.includes("#")) {
         projects.isotope({ filter: "." + filter_value });
+        $('body').removeClass('writing').removeClass('editing').removeClass('interviews');
+        $('body').addClass(value);
         $(".menu-item")
           .removeClass("active")
         $('a[href="/#' + value + '"]')
