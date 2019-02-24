@@ -407,6 +407,32 @@ nav .menu {
   background-repeat:no-repeat;
 }
 
+.back-bottom-right {
+  position:absolute;
+  bottom:0;
+  right:0;
+  background-image:url('/uploads/corner-right-bottom.png');
+  width:300px;
+  pointer-events:none;
+  background-size:300px;
+  height:600px;
+  background-repeat:no-repeat;
+  background-position: bottom;
+}
+
+.back-bottom-left {
+  position:absolute;
+  bottom:-5px;
+  left:0;
+  background-image:url('/uploads/corner-left-bottom.png');
+  width:300px;
+  pointer-events:none;
+  background-size:300px;
+  height:600px;
+  background-repeat:no-repeat;
+  background-position: bottom;
+}
+
 /* -------- About ---------*/
 
 .about h2,
