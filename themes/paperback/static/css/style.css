@@ -561,7 +561,8 @@ nav .menu {
 }
 
 .editing .scribble-1 {
-  top:1100px;
+  top:auto!important;
+  bottom: 50px!important;
 }
 
 .writing .scribble-3 {

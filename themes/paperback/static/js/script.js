@@ -9,21 +9,34 @@ jQuery(function($) {
       // options
       itemSelector: ".project",
       layoutMode: "fitRows",
+      fitRows: {
+        gutter: 0
+      },
       transitionDuration: "0"
     });
+
+    let filterProjects = (value, filter_value) => {
+      if(value && filter_value) {
+        // change body class
+        $('body').removeClass('writing').removeClass('editing').removeClass('interviews');
+        $('body').addClass(value);
+        // filter projects
+        projects.isotope({ filter: filter_value });
+        projects.isotope('layout');
+        // change menu item highlight
+        $(".menu-item")
+          .removeClass("active")
+        $('a[href="/#' + value + '"]')
+          .addClass("active");
+      }
+    }
 
     // filter on load
     let url = window.location;
     let value = url.hash.substring(1);
     let filter_value = "." + url.hash.substring(1);
     if(url.hash.length > 1 && url.hash.includes("#")) {
-      projects.isotope({ filter: filter_value });
-      $('body').removeClass('writing').removeClass('editing').removeClass('interviews');
-      $('body').addClass(value);
-      $(".menu-item")
-        .removeClass("active")
-      $('a[href="/#' + value + '"]')
-        .addClass("active");
+      filterProjects(value, filter_value)
     } else {
       let path = "/" + url.href.split('/')[3];
       if(path && $('a[href="' + path + '"]').length > 0) {
@@ -35,20 +48,11 @@ jQuery(function($) {
     $(window).bind('hashchange', function() {
       let url = window.location;
       let value = url.hash.substring(1);
-      let filter_value = url.hash.substring(1);
+      let filter_value = "." + url.hash.substring(1);
       if(url.hash.length > 1 && url.hash.includes("#")) {
-        projects.isotope({ filter: "." + filter_value });
-        $('body').removeClass('writing').removeClass('editing').removeClass('interviews');
-        $('body').addClass(value);
-        $(".menu-item")
-          .removeClass("active")
-        $('a[href="/#' + value + '"]')
-          .addClass("active");
+        filterProjects(value, filter_value)
       }
     });
-
-    // set mobile menu to display block when site has loaded
-    // $('.menu-content').css('display', 'block');
 
     // mobile menu {
     $('.menu-button').click(function() {
