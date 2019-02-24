@@ -1116,6 +1116,17 @@ nav .menu {
     left: -8px;
     background-size: 200px;
   }
+  .back-bottom-right {
+    bottom: -5px;
+    right: -7px;
+    background-size:230px;
+    width:230px;
+  }
+  .back-bottom-left {
+    bottom: -8px;
+    left: -54px;
+    background-size: 200px;
+  }
   .bottom-black-back {
     overflow-x: hidden;
     background-size: 200% auto;
