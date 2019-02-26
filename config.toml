@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "Hayley Evans"
 theme = "paperback"
 enableEmoji = true
+[params]
+  sitedescription = "Portfolio for writer/editor Hayley Evans"
+  instagram = "https://www.instagram.com/voidxwitch/"
+  linkedin = "https://www.linkedin.com/in/hayleyev/"
+  twitter = "https://twitter.com/quoth_hayley"
 
 [[menu.main]]
 name = "Writing"
