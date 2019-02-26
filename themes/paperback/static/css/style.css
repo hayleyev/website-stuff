@@ -1177,3 +1177,12 @@ nav .menu {
     display:none;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .project.editing {
+    min-height:320px;
+  }
+  .project.editing .picture {
+    height:320px;
+  }
+}
