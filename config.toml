@@ -5,6 +5,7 @@ theme = "paperback"
 enableEmoji = true
 [params]
   sitedescription = "Portfolio for writer/editor Hayley Evans"
+  image = "uploads/155_untitled-abalone.jpg"
   instagram = "https://www.instagram.com/voidxwitch/"
   linkedin = "https://www.linkedin.com/in/hayleyev/"
   twitter = "https://twitter.com/quoth_hayley"
