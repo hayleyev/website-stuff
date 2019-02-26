@@ -1,15 +1,8 @@
 baseURL = "http://hayleyevans.net/"
-languageCode = "en-us"
-title = "Hayley Evans"
-theme = "paperback"
 enableEmoji = true
-[params]
-  sitedescription = "Portfolio for writer/editor Hayley Evans"
-  image = "uploads/155_untitled-abalone.jpg"
-  instagram = "https://www.instagram.com/voidxwitch/"
-  linkedin = "https://www.linkedin.com/in/hayleyev/"
-  twitter = "https://twitter.com/quoth_hayley"
-
+languageCode = "en-us"
+theme = "paperback"
+title = "Hayley Evans"
 [[menu.main]]
 name = "Writing"
 url = "/#writing"
@@ -26,3 +19,9 @@ weight = 3
 name = "About"
 url = "/about"
 weight = 4
+[params]
+image = "/uploads/cover-image-1.jpg"
+instagram = "https://www.instagram.com/voidxwitch/"
+linkedin = "https://www.linkedin.com/in/hayleyev/"
+sitedescription = "Portfolio for writer/editor Hayley Evans"
+twitter = "https://twitter.com/quoth_hayley"
