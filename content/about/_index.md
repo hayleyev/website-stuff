@@ -15,7 +15,7 @@ Hayley has worked as an editor for six years, polishing manuscripts for various 
 
 She holds an MA in English literature from the University of Victoria, where she focused on representations of bodies and eroticism in culturally reflective Canadian sci-fi literature.
 
-She currently lives in Montreal with a possibly-demonic cat amidst a collection of dusty books and broken animal bones.
+She currently lives in Montreal with a potentially demonic cat amidst a collection of dusty books and broken animal bones.
 
 ## <span class="text-right">…possibly human.</span>
 
