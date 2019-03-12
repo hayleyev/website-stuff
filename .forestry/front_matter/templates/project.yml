@@ -39,7 +39,6 @@ fields:
   description: Ordering of projects on home page, lower number, higher on the page
 pages:
 - content/projects/10-rogue-taxidermy-artists.md
-- content/projects/we-go-far-back-in-time.md
 - content/projects/mrs-langlois-house.md
 - content/projects/the-modernist-world.md
 - content/projects/in-sickness-and-beauty-evelyn-bencicova.md
