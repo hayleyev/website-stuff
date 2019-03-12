@@ -38,6 +38,7 @@ fields:
   label: weight
   description: Ordering of projects on home page, lower number, higher on the page
 pages:
+- content/projects/survival.md
 - content/projects/10-rogue-taxidermy-artists.md
 - content/projects/mrs-langlois-house.md
 - content/projects/the-modernist-world.md
