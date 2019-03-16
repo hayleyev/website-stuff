@@ -31,4 +31,4 @@ She currently lives in Montreal with a potentially demonic cat amidst a collecti
 
 > "Like a cat, she has the gift of an enhanced sight. She reads the darkness and translates her analytical and sensible vision into words. It is truly inspiring to collaborate with her."
 
-###### — _Marie-Lou Desmeules, living sculpture artist_
+###### — Marie-Lou Desmeules, living sculpture artist
