@@ -2,150 +2,155 @@
   --backColor: #1b1819;
   --textColor: #fff;
   --accentColor: #d62e0d;
-  --spacingTestimonials:0px;
+  --spacingTestimonials: 0px;
   --negativeSpacingTestimonials: 0px;
 }
 
 /* -------- fonts ----------*/
 
 @font-face {
-    font-family: 'Bernard MT Condensed';
-    src: url('BernardMT-Condensed.woff2') format('woff2'),
-        url('BernardMT-Condensed.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Bernard MT Condensed";
+  src: url("BernardMT-Condensed.woff2") format("woff2"),
+    url("BernardMT-Condensed.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Aktiv Grotesk XBold';
-    src: url('AktivGroteskTrial-XBold.woff2') format('woff2'),
-        url('AktivGroteskTrial-XBold.woff') format('woff'),
-        url('AktivGroteskTrial-XBold.svg#AktivGroteskTrial-XBold') format('svg');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Aktiv Grotesk XBold";
+  src: url("AktivGroteskTrial-XBold.woff2") format("woff2"),
+    url("AktivGroteskTrial-XBold.woff") format("woff"),
+    url("AktivGroteskTrial-XBold.svg#AktivGroteskTrial-XBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Aktiv Grotesk';
-    src: url('AktivGroteskTrial-Medium.woff2') format('woff2'),
-        url('AktivGroteskTrial-Medium.woff') format('woff'),
-        url('AktivGroteskTrial-Medium.svg#AktivGroteskTrial-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Aktiv Grotesk";
+  src: url("AktivGroteskTrial-Medium.woff2") format("woff2"),
+    url("AktivGroteskTrial-Medium.woff") format("woff"),
+    url("AktivGroteskTrial-Medium.svg#AktivGroteskTrial-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Aktiv Grotesk Hair';
-    src: url('AktivGroteskTrial-HairItalic.woff2') format('woff2'),
-        url('AktivGroteskTrial-HairItalic.woff') format('woff'),
-        url('AktivGroteskTrial-HairItalic.svg#AktivGroteskTrial-HairItalic') format('svg');
-    font-weight: 300;
-    font-style: italic;
+  font-family: "Aktiv Grotesk Hair";
+  src: url("AktivGroteskTrial-HairItalic.woff2") format("woff2"),
+    url("AktivGroteskTrial-HairItalic.woff") format("woff"),
+    url("AktivGroteskTrial-HairItalic.svg#AktivGroteskTrial-HairItalic")
+      format("svg");
+  font-weight: 300;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Aktiv Grotesk';
-    src: url('AktivGroteskTrial-ThinItalic.woff2') format('woff2'),
-        url('AktivGroteskTrial-ThinItalic.woff') format('woff'),
-        url('AktivGroteskTrial-ThinItalic.svg#AktivGroteskTrial-ThinItalic') format('svg');
-    font-weight: 100;
-    font-style: italic;
+  font-family: "Aktiv Grotesk";
+  src: url("AktivGroteskTrial-ThinItalic.woff2") format("woff2"),
+    url("AktivGroteskTrial-ThinItalic.woff") format("woff"),
+    url("AktivGroteskTrial-ThinItalic.svg#AktivGroteskTrial-ThinItalic")
+      format("svg");
+  font-weight: 100;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Aktiv Grotesk';
-    src: url('AktivGroteskTrial-BoldItalic.woff2') format('woff2'),
-        url('AktivGroteskTrial-BoldItalic.woff') format('woff'),
-        url('AktivGroteskTrial-BoldItalic.svg#AktivGroteskTrial-BoldItalic') format('svg');
-    font-weight: bold;
-    font-style: italic;
+  font-family: "Aktiv Grotesk";
+  src: url("AktivGroteskTrial-BoldItalic.woff2") format("woff2"),
+    url("AktivGroteskTrial-BoldItalic.woff") format("woff"),
+    url("AktivGroteskTrial-BoldItalic.svg#AktivGroteskTrial-BoldItalic")
+      format("svg");
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Aktiv Grotesk';
-    src: url('AktivGroteskTrial-Black.woff2') format('woff2'),
-        url('AktivGroteskTrial-Black.woff') format('woff'),
-        url('AktivGroteskTrial-Black.svg#AktivGroteskTrial-Black') format('svg');
-    font-weight: 900;
-    font-style: normal;
+  font-family: "Aktiv Grotesk";
+  src: url("AktivGroteskTrial-Black.woff2") format("woff2"),
+    url("AktivGroteskTrial-Black.woff") format("woff"),
+    url("AktivGroteskTrial-Black.svg#AktivGroteskTrial-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Aktiv Grotesk';
-    src: url('AktivGroteskTrial-BlackItalic.woff2') format('woff2'),
-        url('AktivGroteskTrial-BlackItalic.woff') format('woff'),
-        url('AktivGroteskTrial-BlackItalic.svg#AktivGroteskTrial-BlackItalic') format('svg');
-    font-weight: 900;
-    font-style: italic;
+  font-family: "Aktiv Grotesk";
+  src: url("AktivGroteskTrial-BlackItalic.woff2") format("woff2"),
+    url("AktivGroteskTrial-BlackItalic.woff") format("woff"),
+    url("AktivGroteskTrial-BlackItalic.svg#AktivGroteskTrial-BlackItalic")
+      format("svg");
+  font-weight: 900;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Aktiv Grotesk';
-    src: url('AktivGroteskTrial-Regular.woff2') format('woff2'),
-        url('AktivGroteskTrial-Regular.woff') format('woff'),
-        url('AktivGroteskTrial-Regular.svg#AktivGroteskTrial-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Aktiv Grotesk";
+  src: url("AktivGroteskTrial-Regular.woff2") format("woff2"),
+    url("AktivGroteskTrial-Regular.woff") format("woff"),
+    url("AktivGroteskTrial-Regular.svg#AktivGroteskTrial-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Aktiv Grotesk';
-    src: url('AktivGroteskTrial-MediumItalic.woff2') format('woff2'),
-        url('AktivGroteskTrial-MediumItalic.woff') format('woff'),
-        url('AktivGroteskTrial-MediumItalic.svg#AktivGroteskTrial-MediumItalic') format('svg');
-    font-weight: 500;
-    font-style: italic;
+  font-family: "Aktiv Grotesk";
+  src: url("AktivGroteskTrial-MediumItalic.woff2") format("woff2"),
+    url("AktivGroteskTrial-MediumItalic.woff") format("woff"),
+    url("AktivGroteskTrial-MediumItalic.svg#AktivGroteskTrial-MediumItalic")
+      format("svg");
+  font-weight: 500;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Aktiv Grotesk';
-    src: url('AktivGroteskTrial-Italic.woff2') format('woff2'),
-        url('AktivGroteskTrial-Italic.woff') format('woff'),
-        url('AktivGroteskTrial-Italic.svg#AktivGroteskTrial-Italic') format('svg');
-    font-weight: normal;
-    font-style: italic;
+  font-family: "Aktiv Grotesk";
+  src: url("AktivGroteskTrial-Italic.woff2") format("woff2"),
+    url("AktivGroteskTrial-Italic.woff") format("woff"),
+    url("AktivGroteskTrial-Italic.svg#AktivGroteskTrial-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Aktiv Grotesk';
-    src: url('AktivGroteskTrial-XBoldItalic.woff2') format('woff2'),
-        url('AktivGroteskTrial-XBoldItalic.woff') format('woff'),
-        url('AktivGroteskTrial-XBoldItalic.svg#AktivGroteskTrial-XBoldItalic') format('svg');
-    font-weight: bold;
-    font-style: italic;
+  font-family: "Aktiv Grotesk";
+  src: url("AktivGroteskTrial-XBoldItalic.woff2") format("woff2"),
+    url("AktivGroteskTrial-XBoldItalic.woff") format("woff"),
+    url("AktivGroteskTrial-XBoldItalic.svg#AktivGroteskTrial-XBoldItalic")
+      format("svg");
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Aktiv Grotesk';
-    src: url('AktivGroteskTrial-Hair.woff2') format('woff2'),
-        url('AktivGroteskTrial-Hair.woff') format('woff'),
-        url('AktivGroteskTrial-Hair.svg#AktivGroteskTrial-Hair') format('svg');
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Aktiv Grotesk";
+  src: url("AktivGroteskTrial-Hair.woff2") format("woff2"),
+    url("AktivGroteskTrial-Hair.woff") format("woff"),
+    url("AktivGroteskTrial-Hair.svg#AktivGroteskTrial-Hair") format("svg");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Aktiv Grotesk';
-    src: url('AktivGroteskTrial-Bold.woff2') format('woff2'),
-        url('AktivGroteskTrial-Bold.woff') format('woff'),
-        url('AktivGroteskTrial-Bold.svg#AktivGroteskTrial-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Aktiv Grotesk";
+  src: url("AktivGroteskTrial-Bold.woff2") format("woff2"),
+    url("AktivGroteskTrial-Bold.woff") format("woff"),
+    url("AktivGroteskTrial-Bold.svg#AktivGroteskTrial-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'HawthornEF';
-    src: url('HawthornEF.woff2') format('woff2'),
-        url('HawthornEF.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+  font-family: "HawthornEF";
+  src: url("HawthornEF.woff2") format("woff2"),
+    url("HawthornEF.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
 }
-
 
 /* -------- Basics ----------*/
 
 html {
-  font-family: 'Aktiv Grotesk', sans-serif;
+  font-family: "Aktiv Grotesk", sans-serif;
   font-size: 18px;
   line-height: 1.5em;
   color: var(--textColor);
@@ -154,29 +159,28 @@ html {
 
 body {
   margin: 0;
-  background-image: url('/uploads/back-black.png');
+  background-image: url("/uploads/back-black.png");
   background-color: var(--backColor);
   background-blend-mode: multiply;
-  background-position:0 -14px;
-  background-repeat:no-repeat;
+  background-position: 0 -14px;
+  background-repeat: no-repeat;
   background-size: 100% auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  position:relative;
-  overflow-x:hidden;
-
+  position: relative;
+  overflow-x: hidden;
 }
 
 .bottom-black-back {
-  position:absolute;
+  position: absolute;
   background-size: 100% auto;
   background-blend-mode: multiply;
-  background-image: url('/uploads/back-black-bottom.png');
-  bottom:0;
-  left:0;
-  right:0;
-  width:100%;
-  height:300px;
+  background-image: url("/uploads/back-black-bottom.png");
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 300px;
   pointer-events: none;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -225,11 +229,11 @@ p {
 a {
   color: var(--linkColor);
   cursor: pointer;
-  transition:0.3s;
+  transition: 0.3s;
 }
 
 a:hover {
-  color:var(--accentColor);
+  color: var(--accentColor);
 }
 
 .display-none {
@@ -237,7 +241,7 @@ a:hover {
 }
 
 .text-right {
-  text-align:right;
+  text-align: right;
 }
 
 img {
@@ -248,92 +252,91 @@ img {
 /* -------- NAV ----------*/
 
 nav a {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .menu a:after {
-  content:" • ";
-  transition:0s;
-  color:#fff;
+  content: " • ";
+  transition: 0s;
+  color: #fff;
   padding: 0 8px;
 }
 
-
 .menu a:last-child:after {
-  content:"";
-  display:none;
+  content: "";
+  display: none;
 }
 
 .menu a:hover:after {
-  color:#fff;
+  color: #fff;
 }
 
 nav a.title {
-  font-family:'Bernard MT Condensed';
-  font-size:36px;
+  font-family: "Bernard MT Condensed";
+  font-size: 36px;
 }
 
 nav .menu {
-  text-align:right;
+  text-align: right;
 }
 
 .menu-item.active {
-  color:var(--accentColor);
+  color: var(--accentColor);
 }
 
 .mobile-menu {
-  text-align:right;
+  text-align: right;
 }
 
 .mobile-menu .menu-content {
-  position:fixed;
-  top:0;
-  left:0;
-  right:0;
-  background-color:var(--backColor);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--backColor);
   padding: 30px;
   text-align: left;
-  bottom:0;
-  z-index:1000;
+  bottom: 0;
+  z-index: 1000;
   counter-reset: pagenumbers;
-  opacity:0;
+  opacity: 0;
   pointer-events: none;
 }
 
 .mobile-menu .menu-content a {
-  display:block;
-  font-family: 'Bernard MT Condensed';
+  display: block;
+  font-family: "Bernard MT Condensed";
   font-size: 36px;
-  line-height:50px;
+  line-height: 50px;
   border-bottom: 2px dotted #ffffff50;
-  position:relative;
+  position: relative;
 }
 
 .mobile-menu .menu-content .top {
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
 }
 
 .mobile-menu .menu-content .top h3 {
-  flex:1;
+  flex: 1;
 }
 
 .mobile-menu .menu-content .top .close {
-  text-align:right;
-  color:var(--accentColor);
+  text-align: right;
+  color: var(--accentColor);
 }
 
 .mobile-menu .menu-content a:after {
   counter-increment: pagenumbers;
   content: counter(pagenumbers);
-  position:absolute;
-  top:0;
-  right:0;
-  font-size:16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 16px;
 }
 
 .mobile-menu .menu-content.visible {
-  opacity:0;
+  opacity: 0;
   -webkit-animation: fadein 0.3s linear forwards;
   animation: fadein 0.3s linear forwards;
   pointer-events: auto;
@@ -356,82 +359,82 @@ nav .menu {
 
 .top-quote,
 .bottom-quote {
-  max-width:340px;
-  text-align:center;
-  margin:0 auto;
+  max-width: 340px;
+  text-align: center;
+  margin: 0 auto;
   font-style: italic;
-  position:relative;
-  z-index:10;
+  position: relative;
+  z-index: 10;
 }
 
 .top-quote a,
 .bottom-quote a {
-  text-decoration:none;
-  letter-spacing:1px;
+  text-decoration: none;
+  letter-spacing: 1px;
   font-size: 23px;
-  line-height:16px;
+  line-height: 16px;
 }
 
 .top-quote {
-  margin-bottom:60px;
+  margin-bottom: 60px;
 }
 
 .bottom-quote {
-  margin-top:60px;
+  margin-top: 60px;
 }
 
 .top-quote a:hover,
 .bottom-quote a:hover {
-  color:var(--accentColor);
+  color: var(--accentColor);
 }
 
 .back-top-right {
-  position:absolute;
-  top:0;
-  right:0;
-  background-image:url('/uploads/corner-right-top.png');
-  width:300px;
-  pointer-events:none;
-  background-size:300px;
-  height:600px;
-  background-repeat:no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url("/uploads/corner-right-top.png");
+  width: 300px;
+  pointer-events: none;
+  background-size: 300px;
+  height: 600px;
+  background-repeat: no-repeat;
 }
 
 .back-top-left {
-  position:absolute;
-  top:-5px;
-  left:0;
-  background-image:url('/uploads/corner-left-top.png');
-  width:300px;
-  pointer-events:none;
-  background-size:300px;
-  height:600px;
-  background-repeat:no-repeat;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  background-image: url("/uploads/corner-left-top.png");
+  width: 300px;
+  pointer-events: none;
+  background-size: 300px;
+  height: 600px;
+  background-repeat: no-repeat;
 }
 
 .back-bottom-right {
-  position:absolute;
-  bottom:0;
-  right:0;
-  background-image:url('/uploads/corner-right-bottom.png');
-  width:300px;
-  pointer-events:none;
-  background-size:300px;
-  height:600px;
-  background-repeat:no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url("/uploads/corner-right-bottom.png");
+  width: 300px;
+  pointer-events: none;
+  background-size: 300px;
+  height: 600px;
+  background-repeat: no-repeat;
   background-position: bottom;
 }
 
 .back-bottom-left {
-  position:absolute;
-  bottom:-5px;
-  left:0;
-  background-image:url('/uploads/corner-left-bottom.png');
-  width:300px;
-  pointer-events:none;
-  background-size:300px;
-  height:600px;
-  background-repeat:no-repeat;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  background-image: url("/uploads/corner-left-bottom.png");
+  width: 300px;
+  pointer-events: none;
+  background-size: 300px;
+  height: 600px;
+  background-repeat: no-repeat;
   background-position: bottom;
 }
 
@@ -441,21 +444,20 @@ nav .menu {
 .about blockquote,
 .about p,
 .about h6 {
-  position:relative;
-  z-index:1;
+  position: relative;
+  z-index: 1;
 }
 
 .about h2 {
-  color:var(--accentColor);
-  font-family: 'Bernard MT Condensed';
-  letter-spacing:1px;
-  font-size:30px;
-  margin-top:20px;
+  color: var(--accentColor);
+  font-family: "Bernard MT Condensed";
+  letter-spacing: 1px;
+  font-size: 30px;
+  margin-top: 20px;
 }
 
-
 .about {
-  position:relative;
+  position: relative;
 }
 
 .about img {
@@ -464,89 +466,97 @@ nav .menu {
   right: -330px;
 }
 
+.about .reedsy {
+  max-width: 200px;
+}
+
+.about .reedsy img {
+  position: static;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
 .about h2:first-child {
-  margin-top:150px;
+  margin-top: 150px;
 }
 
 .social {
-  padding-top:30px;
-  font-weight:bold;
-  line-height:25px;
+  padding-top: 30px;
+  font-weight: bold;
+  line-height: 25px;
 }
 
 .social a {
-  text-decoration:none;
-  display:inline-block;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .social .spacer {
-  display:inline-block;
+  display: inline-block;
   padding: 0 16px;
 }
 
 .social a.social-link {
-  font-size:25px;
-  position:relative;
-  bottom:-2px;
+  font-size: 25px;
+  position: relative;
+  bottom: -2px;
 }
 
 /* -------- SCRIBBLES ---------*/
 
 .scribble-1 {
-  width:350px;
-  position:absolute;
+  width: 350px;
+  position: absolute;
   left: 6px;
-  top:calc(250px + (14 * 360px));
-  z-index:1000;
-  pointer-events:none;
+  top: calc(250px + (14 * 360px));
+  z-index: 1000;
+  pointer-events: none;
 }
 
 .scribble-2 {
-  width:330px;
-  position:absolute;
+  width: 330px;
+  position: absolute;
   right: -15px;
-  top:calc(331px + (7 * 400px));
-  z-index:1000;
-  pointer-events:none;
+  top: calc(331px + (7 * 400px));
+  z-index: 1000;
+  pointer-events: none;
 }
-
 
 .scribble-3 {
-  width:700px;
-  position:absolute;
+  width: 700px;
+  position: absolute;
   left: 0;
-  top:calc(250px + (8 * 430px));
-  z-index:1000;
-  pointer-events:none;
+  top: calc(250px + (8 * 430px));
+  z-index: 1000;
+  pointer-events: none;
 }
-
 
 /* -------- PROJECTS ---------*/
 
 .projects {
-  padding-bottom:100px;
-  margin:24px -30px 60px -30px;
-  flex-wrap:wrap;
+  padding-bottom: 100px;
+  margin: 24px -30px 60px -30px;
+  flex-wrap: wrap;
 }
 
 .project:nth-child(3n - 1),
 .insert:nth-child(3n - 1) {
-  margin-top:100px;
+  margin-top: 100px;
 }
 
 .editing .project,
 .editing .insert {
-  margin-top:0px;
+  margin-top: 0px;
 }
 
 .interviews .project,
 .interviews .insert {
-  margin-top:0px;
+  margin-top: 0px;
 }
 
 .writing .project,
 .writing .insert {
-  margin-top:0px;
+  margin-top: 0px;
 }
 
 .interviews .scribble-3,
@@ -555,153 +565,153 @@ nav .menu {
 .editing .scribble-3,
 .writing .scribble-1,
 .writing .scribble-2 {
-  display:none;
+  display: none;
 }
 
 .interviews .scribble-2 {
-  top:600px;
+  top: 600px;
 }
 
 .editing .scribble-1 {
-  top:auto!important;
-  bottom: 50px!important;
+  top: auto !important;
+  bottom: 50px !important;
 }
 
 .writing .scribble-3 {
-  top:1800px;
+  top: 1800px;
 }
 
 .project,
 .insert {
-  position:relative;
-  min-height:300px;
-  max-width:33.3333%;
-  min-width:33.3333%;
-  display:block;
-  text-decoration:none;
-  box-sizing:border-box;
+  position: relative;
+  min-height: 300px;
+  max-width: 33.3333%;
+  min-width: 33.3333%;
+  display: block;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 .project .picture,
 .insert .picture {
   height: 250px;
   width: calc(100% - 60px);
-  background-size:cover;
-  position:absolute;
-  z-index:0;
+  background-size: cover;
+  position: absolute;
+  z-index: 0;
   filter: grayscale(100%);
-  opacity:0.7;
+  opacity: 0.7;
   background-position: center center;
-  -webkit-animation: fadein .3s;
-     -moz-animation: fadein .3s;
-      -ms-animation: fadein .3s;
-       -o-animation: fadein .3s;
-          animation: fadein .3s;
+  -webkit-animation: fadein 0.3s;
+  -moz-animation: fadein 0.3s;
+  -ms-animation: fadein 0.3s;
+  -o-animation: fadein 0.3s;
+  animation: fadein 0.3s;
 }
 
 .project .desc {
-  position:relative;
-  z-index:10;
-  margin-top:177px;
+  position: relative;
+  z-index: 10;
+  margin-top: 177px;
 }
 
 .project a {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .project a.author-link:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
-.project h2  {
+.project h2 {
   font-size: 46px;
-  line-height:46px;
-  margin-bottom:16px;
+  line-height: 46px;
+  margin-bottom: 16px;
   animation-delay: 2s;
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
-  -webkit-animation: fadeFromRed .8s;
-     -moz-animation: fadeFromRed .8s;
-      -ms-animation: fadeFromRed .8s;
-       -o-animation: fadeFromRed .8s;
-          animation: fadeFromRed .8s;
+  -webkit-animation: fadeFromRed 0.8s;
+  -moz-animation: fadeFromRed 0.8s;
+  -ms-animation: fadeFromRed 0.8s;
+  -o-animation: fadeFromRed 0.8s;
+  animation: fadeFromRed 0.8s;
 }
 
 .project .title {
   color: var(--accentColor);
-  width:50%;
-  line-height:20px;
+  width: 50%;
+  line-height: 20px;
   margin: 8px 0;
 }
 
 .project.editing {
-  padding:0;
-  min-height:450px;
+  padding: 0;
+  min-height: 450px;
 }
 
 .project.editing .picture {
-  position:static;
+  position: static;
   margin: 0 auto;
 }
 
 .project.editing .center {
-  position:relative;
-  width:100%;
-  text-align:center;
+  position: relative;
+  width: 100%;
+  text-align: center;
 }
 
 .project.editing h2 {
-  font-weight:bold;
-  font-family: 'HawthornEF';
-  font-size:55px;
-  margin-top:22px;
+  font-weight: bold;
+  font-family: "HawthornEF";
+  font-size: 55px;
+  margin-top: 22px;
   letter-spacing: 0.5px;
-  text-align:center;
+  text-align: center;
 }
 
 .project.editing .desc {
-  margin-top:100px;
-  position:absolute;
-  top:0;
-  width:300px;
-  text-align:center;
-  left:50%;
-  margin-left:-150px;
-  padding:0;
+  margin-top: 100px;
+  position: absolute;
+  top: 0;
+  width: 300px;
+  text-align: center;
+  left: 50%;
+  margin-left: -150px;
+  padding: 0;
 }
 
 .project.editing .title {
   width: 70%;
-  text-align:center;
-  font-size:32px;
-  line-height:36px;
-  font-weight:bold;
-  color:#fff;
-  transition:0.3s;
+  text-align: center;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+  color: #fff;
+  transition: 0.3s;
   padding: 0 24px;
   box-sizing: border-box;
-  margin:0 auto;
-  font-family: 'Anton', sans-serif;
+  margin: 0 auto;
+  font-family: "Anton", sans-serif;
   letter-spacing: 1px;
 }
 
 .project.editing:hover .title {
-  color:var(--accentColor);
+  color: var(--accentColor);
 }
 
 .project.editing .author {
   width: calc(70% - 60px);
-  text-align:center;
-  color:var(--accentColor);
-  margin:8px auto 0 auto;
-  line-height:20px;
+  text-align: center;
+  color: var(--accentColor);
+  margin: 8px auto 0 auto;
+  line-height: 20px;
 }
 
 .project.editing .picture {
   height: 450px;
   width: calc(80% - 60px);
-  opacity:0.7;
-  max-width:340px;
+  opacity: 0.7;
+  max-width: 340px;
 }
 
 .project.interviews .desc {
@@ -709,23 +719,22 @@ nav .menu {
 }
 
 .project.writing h2 {
-  font-family: 'Bernard MT Condensed';
+  font-family: "Bernard MT Condensed";
   font-size: 46px;
 }
 
 .project.interviews h2 {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 40px;
-  line-height:40px;
+  line-height: 40px;
   text-transform: uppercase;
 }
 
 .project.interview .desc {
-  margin-top:200px;
+  margin-top: 200px;
 }
 
 .project-insert {
-
 }
 
 /* -- containers -- */
@@ -745,20 +754,20 @@ nav .menu {
 /* -------- ABOUT ---------*/
 
 .about blockquote p {
-  margin:0;
+  margin: 0;
 }
 
 .about blockquote {
-  margin-left:0;
-  margin-right:0;
-  left:var(--negativeSpacingTestimonials);
+  margin-left: 0;
+  margin-right: 0;
+  left: var(--negativeSpacingTestimonials);
   font-style: italic;
-  position:relative;
+  position: relative;
 }
 
 .about blockquote:first-of-type,
 .about blockquote:last-of-type {
-  left:var(--spacingTestimonials);
+  left: var(--spacingTestimonials);
 }
 
 .about h6 {
@@ -768,23 +777,23 @@ nav .menu {
   margin: 8px 0 36px 0;
   font-weight: normal;
   font-style: normal;
-  position:relative;
-  left:var(--negativeSpacingTestimonials);
+  position: relative;
+  left: var(--negativeSpacingTestimonials);
 }
 
 .about h6:first-of-type,
 .about h6:last-of-type {
-  left:var(--spacingTestimonials);
+  left: var(--spacingTestimonials);
 }
 
 .about h2 span {
   text-align: right;
-  display:block;
+  display: block;
 }
 
 .about hr {
-  margin:36px 0;
-  opacity:0;
+  margin: 36px 0;
+  opacity: 0;
 }
 
 /* -------- FLEX ---------*/
@@ -954,96 +963,159 @@ nav .menu {
 /* ------ ANIMATIONS --------- */
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 0.7; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.7;
+  }
 }
 
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 0.7; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.7;
+  }
 }
 
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 0.7; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.7;
+  }
 }
 
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 0.7; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.7;
+  }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadeFromRed {
-    from { opacity: 0; color:var(--accentColor); }
-    to   { opacity: 1; color:#fff; }
+  from {
+    opacity: 0;
+    color: var(--accentColor);
+  }
+  to {
+    opacity: 1;
+    color: #fff;
+  }
 }
 
 @keyframes fadeFromRed {
-  from { opacity:0.2; color:var(--accentColor); }
-  to   { opacity: 1; color:#fff; }
+  from {
+    opacity: 0.2;
+    color: var(--accentColor);
+  }
+  to {
+    opacity: 1;
+    color: #fff;
+  }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadeFromRed {
-  from { opacity:0.2; color:var(--accentColor); }
-  to   { opacity: 1; color:#fff; }
+  from {
+    opacity: 0.2;
+    color: var(--accentColor);
+  }
+  to {
+    opacity: 1;
+    color: #fff;
+  }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadeFromRed {
-  from { opacity:0.2; color:var(--accentColor); }
-  to   { opacity: 1; color:#fff; }
+  from {
+    opacity: 0.2;
+    color: var(--accentColor);
+  }
+  to {
+    opacity: 1;
+    color: #fff;
+  }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadeFromRed {
-  from { opacity:0.2; color:var(--accentColor); }
-  to   { opacity: 1; color:#fff; }
+  from {
+    opacity: 0.2;
+    color: var(--accentColor);
+  }
+  to {
+    opacity: 1;
+    color: #fff;
+  }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadeFromRed {
-  from { opacity:0.2; color:var(--accentColor); }
-  to   { opacity: 1; color:#fff; }
+  from {
+    opacity: 0.2;
+    color: var(--accentColor);
+  }
+  to {
+    opacity: 1;
+    color: #fff;
+  }
 }
 
 @-webkit-keyframes fadein {
-  50% { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
 }
 
 @keyframes fadein {
-  50% { opacity: 0 }
+  50% {
+    opacity: 0;
+  }
 }
 @keyframes fadein {
-  100% { opacity: 1; }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeout {
-  50% { opacity: 1; }
+  50% {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeout {
-  50% { opacity: 1 }
+  50% {
+    opacity: 1;
+  }
 }
 @keyframes fadeout {
-  100% { opacity: 0; }
+  100% {
+    opacity: 0;
+  }
 }
-
 
 /* -------- MOBILE ---------*/
 
 @media screen and (max-width: 1500px) {
   .wrap {
-    padding-left:60px;
-    padding-right:60px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .scribble-2,
   .scribble-3 {
-    display:none;
+    display: none;
   }
   .scribble-1 {
     top: calc(550px + (14 * 360px));
@@ -1070,19 +1142,20 @@ nav .menu {
     padding-top: 30px;
   }
   nav a.title {
-    line-height:34px;
+    line-height: 34px;
   }
-  .top-quote, .bottom-quote {
+  .top-quote,
+  .bottom-quote {
     font-size: 14px;
     max-width: 250px;
-    line-height:16px;
+    line-height: 16px;
   }
   .top-quote {
-    margin-bottom:0;
+    margin-bottom: 0;
   }
   .projects {
-    flex-direction:column;
-    margin-top:0;
+    flex-direction: column;
+    margin-top: 0;
   }
   .project {
     max-width: 100%;
@@ -1092,37 +1165,37 @@ nav .menu {
     margin-top: 0;
   }
   .project.writing h2 {
-    font-size:40px;
-    line-height:40px;
+    font-size: 40px;
+    line-height: 40px;
   }
   .project .title {
-    width:70%;
+    width: 70%;
   }
   .wrap-smaller {
     padding: 60px 20px;
   }
   .about img {
-    position:static;
+    position: static;
   }
   .about h2:first-child {
-    margin-top:0;
+    margin-top: 0;
   }
   .project .desc {
     margin-top: 189px;
   }
   .about {
-    padding-top:0;
-    margin-top:-33px;
+    padding-top: 0;
+    margin-top: -33px;
   }
   .header {
-    position:relative;
-    z-index:1000;
+    position: relative;
+    z-index: 1000;
   }
   .back-top-right {
     top: -5px;
     right: -7px;
-    background-size:230px;
-    width:230px;
+    background-size: 230px;
+    width: 230px;
   }
   .back-top-left {
     top: -8px;
@@ -1132,8 +1205,8 @@ nav .menu {
   .back-bottom-right {
     bottom: -5px;
     right: -7px;
-    background-size:230px;
-    width:230px;
+    background-size: 230px;
+    width: 230px;
   }
   .back-bottom-left {
     bottom: -8px;
@@ -1147,7 +1220,7 @@ nav .menu {
     background-position: bottom center;
   }
   .project.editing {
-    padding:30px;
+    padding: 30px;
   }
   .project.editing .picture {
     width: calc(100% - 58px);
@@ -1159,43 +1232,51 @@ nav .menu {
     width: calc(100% - 60px);
   }
   .social {
-    text-align:center;
+    text-align: center;
   }
   .social a {
-    display:block;
+    display: block;
   }
   .social a.social-link {
-    display:inline-block;
-    margin-top:20px;
+    display: inline-block;
+    margin-top: 20px;
   }
   .social .spacer:first-of-type {
-    display:none;
+    display: none;
   }
   .about blockquote:first-of-type,
   .about blockquote:last-of-type {
-    left:0;
+    left: 0;
   }
   .about blockquote {
-    left:0;
+    left: 0;
   }
-  .about h6:first-of-type, .about h6:last-of-type {
-    left:0;
+  .about h6:first-of-type,
+  .about h6:last-of-type {
+    left: 0;
   }
   .about h6 {
-    left:0;
+    left: 0;
   }
   .scribble-1,
   .scribble-2,
   .scribble-3 {
-    display:none;
+    display: none;
   }
 }
 
 @media screen and (max-width: 380px) {
   .project.editing {
-    min-height:320px;
+    min-height: 320px;
   }
   .project.editing .picture {
-    height:320px;
+    height: 320px;
+  }
+  .about .reedsy {
+    text-align: center;
+    max-width: 100%;
+  }
+  .about .reedsy img {
+    max-width: 200px;
   }
 }
