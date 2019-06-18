@@ -4,7 +4,11 @@
       <div class="picture" style="background-image:url(/uploads/book-illu.png);">
       </div>
       <div class="desc medium-padding-left flex-1">
-        <a href="{{ .Params.projectUrl }}">
+        {{ if (not (isset .Params "projecturl")) | or (eq .Params.projecturl "") }}
+          <a href="{{ .Permalink }}">
+        {{ else }}
+          <a href="{{ .Params.projectUrl }}">
+        {{ end }}
         <p class="title">
           {{ .Title | safeHTML }}
         </p>
@@ -25,7 +29,11 @@
     <div class="picture" style="background-image:url({{ .Params.Picture }});">
     </div>
     <div class="desc medium-padding-left flex-1">
-      <a href="{{ .Params.projectUrl }}">
+      {{ if (not (isset .Params "projecturl")) | or (eq .Params.projecturl "") }}
+        <a href="{{ .Permalink }}">
+      {{ else }}
+        <a href="{{ .Params.projectUrl }}">
+      {{ end }}
       <h2 class="quote">{{ .Params.Quote | safeHTML }}</h2>
       </a>
       <a href="{{ .Params.projectUrl }}">
