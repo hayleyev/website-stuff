@@ -38,6 +38,7 @@ fields:
   label: weight
   description: Ordering of projects on home page, lower number, higher on the page
 pages:
+- content/projects/the-nature-of-fear-nicola-samori.md
 - content/projects/colby-v-edwards-post-apocalyptic-existence.md
 - content/projects/designs-by-fangophilia.md
 - content/projects/photography-by-laura-makabresku-1.md
@@ -52,7 +53,6 @@ pages:
 - content/projects/dark-paranormal-femininity-nynewe.md
 - content/projects/interview-with-placide-avantia.md
 - content/projects/shadow-sculptures-by-tim-noble-sue-webster.md
-- content/projects/the-nature-of-fear-nicola-samori.md
 - content/projects/nathan-coley-s-illuminated-text-sculptures.md
 - content/projects/julian-feeld-la-forêt.md
 - content/projects/mrs-langlois-house.md
