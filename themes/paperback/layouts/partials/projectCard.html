@@ -7,7 +7,7 @@
         {{ if (not (isset .Params "projecturl")) | or (eq .Params.projecturl "") }}
           <a href="{{ .Permalink }}">
         {{ else }}
-          <a href="{{ .Params.projectUrl }}">
+          <a href="{{ .Params.projectUrl }}" target="_blank">
         {{ end }}
         <p class="title">
           {{ .Title | safeHTML }}
@@ -32,11 +32,11 @@
       {{ if (not (isset .Params "projecturl")) | or (eq .Params.projecturl "") }}
         <a href="{{ .Permalink }}">
       {{ else }}
-        <a href="{{ .Params.projectUrl }}">
+        <a href="{{ .Params.projectUrl }}"  target="_blank">
       {{ end }}
       <h2 class="quote">{{ .Params.Quote | safeHTML }}</h2>
       </a>
-      <a href="{{ .Params.projectUrl }}">
+      <a href="{{ .Params.projectUrl }}"  target="_blank">
       <p class="title">
         {{ .Title | safeHTML }}
       </p>
