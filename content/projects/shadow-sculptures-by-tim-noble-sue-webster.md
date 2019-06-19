@@ -10,4 +10,4 @@ type = "writing"
 weight = 28
 
 +++
-![](/uploads/screencapture-scene360-art-114756-2019-06-16-20_55_48.png)
+![](/uploads/screencapture-scene360-art-114756-2019-06-16-20_55_48-squashed.jpg)
