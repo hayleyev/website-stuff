@@ -1,6 +1,6 @@
 +++
 picture = "/uploads/olivier-de-sagazan-31.jpg"
-projecturl = "https://scene360.com/art/103810/olivier-de-sagazan/"
+projecturl = "https://bit.ly/2XmlcGe"
 quote = "Hideous, Terrible, Magical Body"
 title = "Interview with Olivier de Sagazan"
 type = "interviews"

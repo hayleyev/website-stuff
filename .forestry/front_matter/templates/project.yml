@@ -38,6 +38,7 @@ fields:
   label: weight
   description: Ordering of projects on home page, lower number, higher on the page
 pages:
+- content/projects/interview-with-gottfried-helnwein.md
 - content/projects/dark-art-by-dehn-sora.md
 - content/projects/suburban-occult-joseph-haxan.md
 - content/projects/the-nature-of-fear-nicola-samori.md
@@ -49,7 +50,6 @@ pages:
 - content/projects/interview-with-evelyn-bencicova.md
 - content/projects/sculptures-by-berlinde-de-bruyckere.md
 - content/projects/photography-by-helena-darling.md
-- content/projects/interview-with-gottfried-helnwein.md
 - content/projects/light-through-shadow-krist-mort.md
 - content/projects/dark-paranormal-femininity-nynewe.md
 - content/projects/interview-with-placide-avantia.md
