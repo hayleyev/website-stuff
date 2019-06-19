@@ -38,6 +38,8 @@ fields:
   label: weight
   description: Ordering of projects on home page, lower number, higher on the page
 pages:
+- content/projects/interview-with-evelyn-bencicova.md
+- content/projects/art-by-stephanie-inagaki.md
 - content/projects/interview-with-gottfried-helnwein.md
 - content/projects/dark-art-by-dehn-sora.md
 - content/projects/suburban-occult-joseph-haxan.md
@@ -46,8 +48,6 @@ pages:
 - content/projects/designs-by-fangophilia.md
 - content/projects/photography-by-laura-makabresku-1.md
 - content/projects/soledades.md
-- content/projects/art-by-stephanie-inagaki.md
-- content/projects/interview-with-evelyn-bencicova.md
 - content/projects/sculptures-by-berlinde-de-bruyckere.md
 - content/projects/photography-by-helena-darling.md
 - content/projects/light-through-shadow-krist-mort.md
