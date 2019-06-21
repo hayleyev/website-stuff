@@ -38,6 +38,7 @@ fields:
   label: weight
   description: Ordering of projects on home page, lower number, higher on the page
 pages:
+- content/projects/julian-feeld-la-forêt.md
 - content/projects/photography-by-helena-darling.md
 - content/projects/interview-with-evelyn-bencicova.md
 - content/projects/art-by-stephanie-inagaki.md
@@ -55,7 +56,6 @@ pages:
 - content/projects/interview-with-placide-avantia.md
 - content/projects/shadow-sculptures-by-tim-noble-sue-webster.md
 - content/projects/nathan-coley-s-illuminated-text-sculptures.md
-- content/projects/julian-feeld-la-forêt.md
 - content/projects/mrs-langlois-house.md
 - content/projects/the-modernist-world.md
 - content/projects/10-rogue-taxidermy-artists.md
