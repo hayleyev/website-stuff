@@ -38,6 +38,7 @@ fields:
   label: weight
   description: Ordering of projects on home page, lower number, higher on the page
 pages:
+- content/projects/the-oaken-crucible.md
 - content/projects/julian-feeld-la-forêt.md
 - content/projects/photography-by-helena-darling.md
 - content/projects/interview-with-evelyn-bencicova.md
