@@ -274,6 +274,13 @@ nav a {
 nav a.title {
   font-family: "Bernard MT Condensed";
   font-size: 36px;
+  line-height:68px;
+}
+
+nav a.title .monogram {
+  max-width:60px;
+  margin-right:16px;
+  vertical-align:top;
 }
 
 nav .menu {
@@ -381,6 +388,14 @@ nav .menu {
 
 .bottom-quote {
   margin-top: 60px;
+}
+
+.bottom-monogram {
+  max-width:60px;
+  width:60px;
+  position:absolute;
+  bottom :0;
+  right: 10em;
 }
 
 .top-quote a:hover,
@@ -743,6 +758,7 @@ nav .menu {
   padding: 0 10em;
   max-width: 1800px;
   margin: 0 auto;
+  position:relative;
 }
 
 .wrap-smaller {
@@ -1278,5 +1294,27 @@ nav .menu {
   }
   .about .reedsy img {
     max-width: 200px;
+  }
+  .title {
+    min-width:75%;
+  }
+  nav a.title .monogram {
+    float:left;
+    max-width:57px;
+  }
+  .title span {
+    display:block;
+    float:left;
+    max-width:100px;
+  }
+  .bottom-monogram {
+    max-width:100%;
+    width:100%;
+    position:static;
+    text-align:center;
+    margin-top:60px;
+  }
+  .bottom-monogram .monogram {
+    max-width:60px;
   }
 }
