@@ -1242,7 +1242,7 @@ nav .menu {
     width: calc(100% - 58px);
   }
   .project.editing .author {
-    width: calc(100% - 60px);
+    width: calc(100% - 120px);
   }
   .project.editing .title {
     width: calc(100% - 60px);

@@ -36,7 +36,11 @@
       {{ end }}
       <h2 class="quote">{{ .Params.Quote | safeHTML }}</h2>
       </a>
-      <a href="{{ .Params.projectUrl }}"  target="_blank">
+      {{ if (not (isset .Params "projecturl")) | or (eq .Params.projecturl "") }}
+        <a href="{{ .Permalink }}">
+      {{ else }}
+        <a href="{{ .Params.projectUrl }}"  target="_blank">
+      {{ end }}
       <p class="title">
         {{ .Title | safeHTML }}
       </p>
