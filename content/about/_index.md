@@ -32,3 +32,7 @@ She currently lives in Montreal with a potentially demonic cat amidst a collecti
 > "Like a cat, she has the gift of an enhanced sight. She reads the darkness and translates her analytical and sensible vision into words. It is truly inspiring to collaborate with her."
 
 ###### — Marie-Lou Desmeules, living sculpture artist
+
+> "Meticulous, intelligent, trustworthy—Hayley Evans is a gifted editor whose keen eyes and sharp red pencil have vastly improved the two book manuscripts I have sent her way. I am in awe of her uncanny ability to catch typographical errors, factual inconsistencies, and inelegant prose. Her calm professionalism and commitment to precision are unparalleled. I look forward to future collaborations."
+
+###### — Allana Lindgren, Associate Professor, Co-Editor of The Modernist World and Moving Together
