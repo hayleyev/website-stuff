@@ -1148,9 +1148,19 @@ nav .menu {
 /* -------- MOBILE ---------*/
 
 @media screen and (max-width: 1500px) {
+  .wrap {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
   .scribble-2 {
     display:none;
   }
+  .scribble-3 {
+    top:3600px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
   .scribble-1 {
     bottom: -90px;
     top:auto;
