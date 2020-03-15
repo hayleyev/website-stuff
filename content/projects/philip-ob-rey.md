@@ -2,7 +2,7 @@
 picture = "/uploads/IMG_1157-dark-waves.jpg"
 projecturl = ""
 quote = "waste, memories, and knowledge, resurrected. "
-title = "VHS Giants by Philip Ob Rey"
+title = "VHS Giants by Philip Ob Rey "
 type = "writing"
 weight = 18
 
