@@ -16,9 +16,13 @@ name = "Interviews"
 url = "/#interviews"
 weight = 3
 [[menu.main]]
+name = "Music"
+url = "https://blood-and-dust.bandcamp.com/"
+weight = 4
+[[menu.main]]
 name = "About"
 url = "/about"
-weight = 4
+weight = 5
 [params]
 image = "/uploads/cover-image-1.jpg"
 instagram = "https://www.instagram.com/voidxwitch/"

@@ -15,6 +15,17 @@ jQuery(function($) {
       transitionDuration: "0"
     });
 
+    // when images are loaded
+    $(".project").each(function() {
+      let project = $(this);
+      project
+        .find(".picture")
+        .imagesLoaded({ background: true }, function(instance, image) {
+          project.find(".picture-img").removeClass("not-loaded");
+        });
+    });
+
+
     let filterProjects = (value, filter_value) => {
       if(value && filter_value) {
         // change body class

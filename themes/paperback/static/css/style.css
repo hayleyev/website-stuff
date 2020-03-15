@@ -532,7 +532,7 @@ nav .menu {
   width: 330px;
   position: absolute;
   right: -15px;
-  top: calc(331px + (7 * 400px));
+  top: 2979px;
   z-index: 1000;
   pointer-events: none;
 }
@@ -607,21 +607,47 @@ nav .menu {
   box-sizing: border-box;
 }
 
-.project .picture,
-.insert .picture {
+.project.interviews .picture,
+.project.writing .picture {
   height: 250px;
   width: calc(100% - 60px);
-  background-size: cover;
   position: absolute;
   z-index: 0;
-  filter: grayscale(100%);
   opacity: 0.7;
+  background-color:#000;
+}
+
+.project.editing .picture {
+  height: 250px;
+  width: calc(100% - 60px);
+  position: absolute;
+  background-size: cover;
+  z-index: 0;
+  opacity: 0.7;
+  filter: grayscale(100%);
   background-position: center center;
   -webkit-animation: fadein 0.3s;
   -moz-animation: fadein 0.3s;
   -ms-animation: fadein 0.3s;
   -o-animation: fadein 0.3s;
   animation: fadein 0.3s;
+}
+
+.project .picture-img,
+.insert .picture-img {
+  height: 100%;
+  width:100%;
+  background-size: cover;
+  position: absolute;
+  z-index: 0;
+  filter: grayscale(100%);
+  background-position: center center;
+  transition:0.5s;
+}
+
+.project .picture-img.not-loaded,
+.insert .picture-img.not-loaded {
+  opacity:0;
 }
 
 .project .desc {
@@ -1122,6 +1148,23 @@ nav .menu {
 /* -------- MOBILE ---------*/
 
 @media screen and (max-width: 1500px) {
+  .scribble-2 {
+    display:none;
+  }
+  .scribble-1 {
+    bottom: -90px;
+    top:auto;
+  }
+  .scribble-3 {
+    top:4100px;
+  }
+  .project, .insert {
+    max-width:50%;
+    min-width:50%;
+  }
+  .project:nth-child(3n - 1), .insert:nth-child(3n - 1) {
+    margin-top:0;
+  }
   .wrap {
     padding-left: 60px;
     padding-right: 60px;

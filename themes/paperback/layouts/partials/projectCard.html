@@ -26,7 +26,8 @@
     </div>
   {{ end }}
   {{ if ne .Params.type "editing" }}
-    <div class="picture" style="background-image:url({{ .Params.Picture }});">
+    <div class="picture">
+      <div class="picture-img not-loaded" style="background-image:url({{ .Params.Picture }});"></div>
     </div>
     <div class="desc medium-padding-left flex-1">
       {{ if (not (isset .Params "projecturl")) | or (eq .Params.projecturl "") }}
