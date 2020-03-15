@@ -1153,7 +1153,8 @@ nav .menu {
     padding-right: 60px;
   }
   .scribble-2 {
-    display:none;
+    width:310px;
+    top: 3030px;
   }
   .scribble-3 {
     top:3600px;
