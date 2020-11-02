@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1" xmlns:content="http://purl.org/rss/1.0/modules/content">
+  <channel>
+    <title>Hayley Evans</title>
+    <link>{{ .Permalink }}</link>
+    <description>Hayley Evans • "...they read the darkness"</description>
+    {{ with .Site.LanguageCode }}<language>{{.}}</language>{{end}}
+    {{ if not .Date.IsZero }}<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 EST" | safeHTML }}</lastBuildDate>{{ end }}
+    <image>
+      <url>http:/hayleyevans.net/static/rss.jpg</url>
+      <title>Hayley Evans</title>
+      <link>http://hayleyevans.net/about/</link>
+    </image>
+    {{ with .OutputFormats.Get "RSS" }}
+      {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ end }}
+    {{ range .Site.RegularPages }}
+      <item>
+        <title>{{ .Title }}</title>
+        <link>{{ .Permalink }}</link>
+        <guid>{{ .Permalink }}</guid>
+        <dc:creator>Lizbeth Poirier</dc:creator>
+        <pubDate>{{ if not .Date.IsZero }}{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 EST" | safeHTML }}{{ end }}</pubDate>
+        {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+        <description>{{ .Content | html }}</description>
+        <content:encoded>{{ .Content | html }}</content:encoded>
+      </item>
+    {{ end }}
+  </channel>
+</rss>
