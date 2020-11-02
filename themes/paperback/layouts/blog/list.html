@@ -1,0 +1,11 @@
+{{ partial "header" . }}
+
+<div class="wrap big-padding-top">
+  <div class="projects flex-row">
+    {{ range .Pages }}
+      {{ partial "projectCard.html" . }}
+    {{ end }}
+  </div>
+</div>
+
+{{ partial "footer" . }}

@@ -1,0 +1,16 @@
+{{ partial "header" . }}
+
+<div class="big-padding-top single article">
+  <div class="wrap">
+    <div class="cover"><img src="{{ .Params.picture }}"/></div>
+  </div>
+  <div class="wrap-small">
+    <h1 class="title">{{ .Title }}</h1>
+    <h2 class="subtitle">{{ .Params.description }}</h2>
+    <div class="content medium-padding-top">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+
+{{ partial "footer" . }}
