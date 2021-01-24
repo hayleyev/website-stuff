@@ -1,0 +1,54 @@
+<!doctype html>
+<!--
+    paperback theme by Ritual Dust
+    ritualdust.com
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>{{ .Site.Title }}</title>
+
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    {{ .Hugo.Generator }}
+    <link href="https://fonts.googleapis.com/css?family=Teko:400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel="shortcut icon" href="/uploads/favicon.ico"/>
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script defer src="{{ "js/fontawesome-all.min.js" | relURL }}"></script>
+    <script type="text/javascript" src="{{ "js/imagesloaded.pkgd.min.js" | relURL }}"></script>
+    <script type="text/javascript" src="{{ "js/isotope.pkgd.min.js" | relURL }}"></script>
+    <script type="text/javascript" src="{{ "js/script.js" | relURL }}"></script>
+
+    <!-- Facebook Open Graph -->
+    <meta property="og:locale" content="en_CA">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:title" content="{{ .Site.Title }}">
+    <meta property="og:url" content="http://hayleyevans.net">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="{{ .Site.Params.sitedescription }}">
+    <meta property="og:image" content="{{ .Site.Params.image | relURL }}">
+
+    <!-- Google+ / Schema.org -->
+    <meta itemprop="name" content="{{ .Site.Title }}">
+    <meta itemprop="description" content="{{ .Site.Params.sitedescription }}">
+    <meta itemprop="image" content="{{ .Site.Params.image | relURL }}">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="{{ .Site.Title }}">
+    <meta name="twitter:url" content="http://hayleyevans.net">
+    <meta name="twitter:description" content="{{ .Site.Params.sitedescription }}">
+    <meta name="twitter:image" content="{{ .Site.Params.image | relURL }}">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- SEO -->
+    <meta name="description" content="{{ .Site.Params.sitedescription }}">
+
+    <meta name="google-site-verification" content="FBCwJLwthjT2_HKWrLU2y8-1_BSTyQvxYFtCM7fJmq4" />
+
+  </head>
+
+  <body class="home"> 

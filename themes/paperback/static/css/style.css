@@ -274,13 +274,13 @@ nav a {
 nav a.title {
   font-family: "Bernard MT Condensed";
   font-size: 36px;
-  line-height:68px;
+  line-height: 68px;
 }
 
 nav a.title .monogram {
-  max-width:60px;
-  margin-right:16px;
-  vertical-align:top;
+  max-width: 60px;
+  margin-right: 16px;
+  vertical-align: top;
 }
 
 nav .menu {
@@ -391,10 +391,10 @@ nav .menu {
 }
 
 .bottom-monogram {
-  max-width:60px;
-  width:60px;
-  position:absolute;
-  bottom :0;
+  max-width: 60px;
+  width: 60px;
+  position: absolute;
+  bottom: 0;
   right: 10em;
 }
 
@@ -614,7 +614,7 @@ nav .menu {
   position: absolute;
   z-index: 0;
   opacity: 0.7;
-  background-color:#000;
+  background-color: #000;
 }
 
 .project.editing .picture {
@@ -636,18 +636,18 @@ nav .menu {
 .project .picture-img,
 .insert .picture-img {
   height: 100%;
-  width:100%;
+  width: 100%;
   background-size: cover;
   position: absolute;
   z-index: 0;
   filter: grayscale(100%);
   background-position: center center;
-  transition:0.5s;
+  transition: 0.5s;
 }
 
 .project .picture-img.not-loaded,
 .insert .picture-img.not-loaded {
-  opacity:0;
+  opacity: 0;
 }
 
 .project .desc {
@@ -784,7 +784,7 @@ nav .menu {
   padding: 0 10em;
   max-width: 1800px;
   margin: 0 auto;
-  position:relative;
+  position: relative;
 }
 
 .wrap-smaller {
@@ -1153,28 +1153,30 @@ nav .menu {
     padding-right: 60px;
   }
   .scribble-2 {
-    width:310px;
+    width: 310px;
     top: 3030px;
   }
   .scribble-3 {
-    top:3600px;
+    top: 3600px;
   }
 }
 
 @media screen and (max-width: 1300px) {
   .scribble-1 {
     bottom: -90px;
-    top:auto;
+    top: auto;
   }
   .scribble-3 {
-    top:4100px;
+    top: 4100px;
   }
-  .project, .insert {
-    max-width:50%;
-    min-width:50%;
+  .project,
+  .insert {
+    max-width: 50%;
+    min-width: 50%;
   }
-  .project:nth-child(3n - 1), .insert:nth-child(3n - 1) {
-    margin-top:0;
+  .project:nth-child(3n - 1),
+  .insert:nth-child(3n - 1) {
+    margin-top: 0;
   }
   .wrap {
     padding-left: 60px;
@@ -1350,25 +1352,84 @@ nav .menu {
     max-width: 200px;
   }
   .title {
-    min-width:75%;
+    min-width: 75%;
   }
   nav a.title .monogram {
-    float:left;
-    max-width:57px;
+    float: left;
+    max-width: 57px;
   }
   .title span {
-    display:block;
-    float:left;
-    max-width:100px;
+    display: block;
+    float: left;
+    max-width: 100px;
   }
   .bottom-monogram {
-    max-width:100%;
-    width:100%;
-    position:static;
-    text-align:center;
-    margin-top:60px;
+    max-width: 100%;
+    width: 100%;
+    position: static;
+    text-align: center;
+    margin-top: 60px;
   }
   .bottom-monogram .monogram {
-    max-width:60px;
+    max-width: 60px;
+  }
+}
+
+/* ----- NEW STYLES -------- */
+
+@font-face {
+    font-family: 'Bastard';
+    src: url('Bastard.woff2') format('woff2'),
+        url('Bastard.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+  height: 100% !important;
+}
+
+.home {
+  height: 100% !important;
+  background: url("/uploads/back-new-1.png");
+  background-size: cover;
+  font-family: 'Bastard';
+  color:#f9f9e4;
+  background-position: center;
+}
+
+.home-caption {
+  position: absolute;
+  top: 150px;
+  width: calc(100% - 60px);
+  text-align: center;
+  padding: 0 30px;
+  left:0;
+  font-size: 40px;
+  line-height: 1.2em;
+}
+
+.home-insta {
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+  width: 100%;
+  color:#fff;
+}
+
+.home-insta a {
+  text-decoration: none;
+  color:#f9f9e4;
+}
+
+.home-insta a:hover {
+  color:#666;
+}
+
+@media screen and (max-width: 599px) {
+  .home-caption {
+    top:150px;
+    font-size:35px;
   }
 }

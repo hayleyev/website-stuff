@@ -20,7 +20,7 @@ name = "About"
 url = "/about"
 weight = 5
 [params]
-image = "/uploads/cover-image-1.jpg"
+image = "/uploads/preview.png"
 instagram = "https://www.instagram.com/voidxwitch/"
 linkedin = "https://www.linkedin.com/in/hayleyev/"
 twitter = "https://twitter.com/voidxwitch"
