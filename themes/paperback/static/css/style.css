@@ -1392,11 +1392,12 @@ html {
 
 .home {
   height: 100% !important;
-  background: url("/uploads/back-new-1.png");
+  background: url("/uploads/back-new-2.jpg");
   background-size: cover;
   font-family: 'Bastard';
   color:#f9f9e4;
-  background-position: center;
+  background-position-x: center;
+  background-position-y: top;
 }
 
 .home-caption {
@@ -1431,5 +1432,9 @@ html {
   .home-caption {
     top:150px;
     font-size:35px;
+  }
+
+  .home {
+    background-position-x: 34%;
   }
 }
