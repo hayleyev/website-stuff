@@ -1,7 +1,6 @@
 ---
 title: About
 description: A peculiar life form ... possibly human.
-
 ---
 ![](/uploads/DSC03120.png)
 

@@ -1,6 +1,12 @@
 jQuery(function($) {
   $(document).ready(function() {
 
+    // redirect to home if other page
+    let url_path = window.location.pathname;
+    if(url_path !== "/") {
+      window.location.href = "http://www.hayleyevans.net";
+    }
+
     // ISOTOPE GRID FOR PROJECTS
 
     var projects = $(".projects");
