@@ -6,6 +6,7 @@
   --negativeSpacingTestimonials: 0px;
 }
 
+/* -------- deploy ----------*/
 /* -------- fonts ----------*/
 
 @font-face {
@@ -1378,12 +1379,11 @@ nav .menu {
 /* ----- NEW STYLES -------- */
 
 @font-face {
-    font-family: 'Bastard';
-    src: url('Bastard.woff2') format('woff2'),
-        url('Bastard.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Bastard";
+  src: url("Bastard.woff2") format("woff2"), url("Bastard.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 html {
@@ -1394,8 +1394,8 @@ html {
   height: 100% !important;
   background: url("/uploads/back-new-2.jpg");
   background-size: cover;
-  font-family: 'Bastard';
-  color:#f9f9e4;
+  font-family: "Bastard";
+  color: #f9f9e4;
   background-position-x: center;
   background-position-y: top;
 }
@@ -1406,7 +1406,7 @@ html {
   width: calc(100% - 60px);
   text-align: center;
   padding: 0 30px;
-  left:0;
+  left: 0;
   font-size: 40px;
   line-height: 1.2em;
 }
@@ -1416,22 +1416,22 @@ html {
   bottom: 30px;
   text-align: center;
   width: 100%;
-  color:#fff;
+  color: #fff;
 }
 
 .home-insta a {
   text-decoration: none;
-  color:#f9f9e4;
+  color: #f9f9e4;
 }
 
 .home-insta a:hover {
-  color:#666;
+  color: #666;
 }
 
 @media screen and (max-width: 599px) {
   .home-caption {
-    top:150px;
-    font-size:35px;
+    top: 150px;
+    font-size: 35px;
   }
 
   .home {
